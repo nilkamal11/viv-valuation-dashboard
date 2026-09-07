@@ -5,6 +5,8 @@ Public statement explorer updated from the **23 August 2026** LGT statement (69 
 - [Dashboard](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/)
 - [Risk analysis](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#risk)
 - [Itemized risk reduction](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#reduce-risk)
+- [Exposure overlap](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#exposure)
+- [Return drivers and benchmark comparison](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#return-drivers)
 - [GitHub Pages mirror](https://nilkamal11.github.io/viv-valuation-dashboard/)
 
 ## Coverage
@@ -20,6 +22,8 @@ Bonds, loans, private-fund commitments and performance are replaced from the new
 The replacement has **no transaction ledger**. The prior activity file is removed from the current source and bundle. Activity & income explains the gap and shows 144 estimated payments totaling USD 253,275.89, 10 September 2026–13 August 2027. They are estimates, not confirmed receipts. Existing Git history is retained.
 
 ## Data and methodology
+
+Exposure overlap maps direct shares, funds, options, structured-note references and accumulators to company or fund identities. It reports 48 underlyings with multiple routes, including partial fund disclosures at their actual dates. It keeps direct values, conditional purchases and whole-note references separate. The return-drivers page compares matched annual returns with an unleveraged global-equity reference and distinguishes bank category attribution from unproven selection skill or strategy-level profit. See [the analysis methodology](docs/exposure-and-return-method.md) for coverage, sources and limitations.
 
 All source references use printed pages; add one for the PDF viewer's physical page. Holdings: pp. 6–57. Options: pp. 35–55. Structured derivatives: pp. 56–57. FX: pp. 57–58. Estimated interest: pp. 59–63. Performance: pp. 2–5.
 

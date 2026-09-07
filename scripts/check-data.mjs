@@ -44,3 +44,26 @@ const publicText=['app/page.tsx','app/options.tsx','app/bonds.tsx','app/activity
 assert.ok(!/30 July 2026|30 Jul 2026|110 positions|302<|279299\.95|121\.11%/.test(publicText));
 for(const marker of ['value="risk"','value="reduce-risk"','hashchange'])assert.ok(publicText.includes(marker));
 console.log('PASS: replacement snapshot, 16 section totals, income, option pricing/expiry groups, adjusted FUBO delivery, risk formulas and stale-data checks.');
+const mappingData=read('underlying-map'),fundData=read('fund-map'),returns=read('return-analysis');
+assert.equal(mappingData.statement_date,summary.date);assert.equal(fundData.statement_date,summary.date);assert.equal(returns.statement_date,summary.date);
+assert.equal(mappingData.positions.length,299);assert.equal(mappingData.excluded_positions.length,37);assert.equal(new Set([...mappingData.positions,...mappingData.excluded_positions].map(p=>p.id)).size,336);
+for(const p of mappingData.positions){assert.ok(h.holdings.some(x=>x.id===p.id));for(const k of p.underlying_keys)assert.ok(mappingData.entities.some(e=>e.key===k));}
+assert.equal(fundData.funds.length,32);assert.equal(new Set(fundData.funds.flatMap(f=>f.holdings_ids)).size,32);
+for(const f of fundData.funds){for(const id of f.holdings_ids)assert.ok(mappingData.positions.find(p=>p.id===id).underlying_keys.includes(f.key));for(const c of f.named_constituents){assert.ok(c.as_of<=summary.date);assert.ok(c.exposure_basis);assert.ok(mappingData.entities.some(e=>e.key===c.underlying_key));}}
+const exposureSource=fs.readFileSync(new URL('../lib/exposure.ts',import.meta.url),'utf8').replace(/^import .*;\r?$/gm,'');
+const exposureBindings=`const underlyingData=${JSON.stringify(mappingData)},fundData=${JSON.stringify(fundData)},holdings=${JSON.stringify(h.holdings)},options=${JSON.stringify(o.options)},snapshot=${JSON.stringify(summary.date)},nav=${summary.net};const optionTerms=${optionTerms.toString()};`;
+const exposureJs=ts.transpileModule(exposureBindings+exposureSource,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;
+const exposure=await import('data:text/javascript;base64,'+Buffer.from(exposureJs).toString('base64'));
+assert.equal(exposure.opaqueNotes.length,2);assert.equal(cents(sum(exposure.opaqueNotes.map(p=>exposure.fullValue(p.id)))),29303000);assert.equal(cents(sum(exposure.issuerRows.map(r=>r.value))),257113452);
+assert.equal(cents(sum(exposure.defaultReport.map(r=>r.laterPutCash))),352013115);
+for(const [key,direct,put,note] of [['company:microsoft',134340.72,0,200219.13],['company:alphabet',68350,0,200219.13],['company:nvidia',64416,44000,292970],['company:sap',191910.67,236362.05,0],['fund:spdr-gold-trust',16511.04,0,200460]]){const r=exposure.defaultReport.find(r=>r.entity.key===key);assert.equal(cents(r.directValue),cents(direct));assert.equal(cents(r.putCash),cents(put));assert.equal(cents(r.noteValue),cents(note));}
+assert.equal(exposure.defaultReport.find(r=>/NORILSK/i.test(r.entity.name)).directUnavailable,1);
+const software=exposure.themes.find(t=>t.key==='software-cloud');assert.ok(software.ids.includes('holding-136'));assert.ok(!software.ids.includes('holding-138'));assert.ok(!software.ids.includes('holding-131'));
+assert.equal(exposure.defaultReport.filter(r=>r.repeated&&!r.unresolved).length,48);assert.equal(exposure.defaultReport.filter(r=>r.routes.length>=3&&!r.unresolved).length,17);
+assert.equal(returns.benchmarks.length,8);
+for(const r of returns.benchmarks){assert.ok(r.source_url.startsWith('https://www.ishares.com/'));assert.equal(cents(r.portfolio_return_pct-r.reference_return_pct),cents(r.gap_pp));if(/^20\d\d$/.test(r.label)){assert.equal(r.period_start,r.label+'-01-01');assert.equal(r.period_end,r.label+'-12-31');assert.equal(r.portfolio_return_pct,p.history.find(h=>h.label===r.label).pct);}}
+const half=returns.benchmarks.find(r=>r.label==='H1 2026');assert.equal(half.period_end,'2026-06-30');assert.equal(half.portfolio_return_pct,p.months[5].cumulative);assert.equal(half.reference_return_pct,11.64);
+const years=returns.benchmarks.filter(r=>/^20\d\d$/.test(r.label));const grow=(rows,key)=>rows.reduce((v,r)=>v*(1+r[key]/100),100);
+assert.equal(cents(grow(years,'portfolio_return_pct')),11910);assert.equal(cents(grow(years,'reference_return_pct')),25064);assert.equal(cents(grow(years.filter(r=>r.label>='2022'),'portfolio_return_pct')),9054);assert.equal(cents(grow(years.filter(r=>r.label>='2022'),'reference_return_pct')),14359);
+assert.equal(cents(sum(p.performanceContributions.map(c=>c.contribution_pp))),1764);
+console.log('PASS: company/fund mappings, nonadditive note links, expiry separation, missing valuations, theme membership and matched benchmark periods.');

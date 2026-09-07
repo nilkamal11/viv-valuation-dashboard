@@ -1,0 +1,1580 @@
+{
+  "statement_date": "2026-08-23",
+  "researched_on": "2026-09-07",
+  "schema_version": 1,
+  "scope": "All 32 pooled investment vehicles in the statement, including three private-equity vehicles.",
+  "methodology": [
+    "Themes summarize an investment mandate or disclosed historical portfolio; they are descriptive labels, not exact allocations.",
+    "Named constituents are included only from identified primary fund documents or official manager holdings tables with dates on or before the account statement.",
+    "Historical fund weights applied to statement market values would be indicative look-through estimates, not verified statement-date exposures. No such dollar amounts are calculated in this file.",
+    "Top-ten extracts are partial. Missing companies are unknown rather than zero. Each fund market value must be counted once; do not add its full value to every theme or named company.",
+    "Fund shares, ordinary shares, ADRs, options, structured payoffs and commodity exposure have different units. Company matching does not make their quantities or sensitivities interchangeable.",
+    "Issuer weights from the Franklin mixed-asset fund are kept distinct from equity weights. Later current fund snapshots were excluded from historical constituent data."
+  ],
+  "funds": [
+    {
+      "holding_id": "holding-033",
+      "holdings_ids": [
+        "holding-033"
+      ],
+      "key": "fund:ares-strategic-income-offshore",
+      "name": "Ares Wealth Management Solut Gl Access SCA SICAV RAIF - Ares Strat Inc Offsh",
+      "isin": "LU2708805333",
+      "ticker": null,
+      "theme_keys": [
+        "credit"
+      ],
+      "theme": "Credit fund / details unknown",
+      "strategy": "The statement identifies an Ares Strategic Income Offshore vehicle in its bond-fund section.",
+      "coverage": "opaque",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [],
+      "named_constituents": [],
+      "notes": [
+        "Exact offshore share-class portfolio was not verified in a public primary source. The US Ares Strategic Income Fund portfolio has not been substituted."
+      ],
+      "statement_value_usd": 226866.95,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-034",
+      "holdings_ids": [
+        "holding-034"
+      ],
+      "key": "fund:man-dynamic-income",
+      "name": "Man Funds plc - Man Dynamic Income",
+      "isin": "IE000EGAKI03",
+      "ticker": null,
+      "theme_keys": [
+        "credit"
+      ],
+      "theme": "Flexible fixed income",
+      "strategy": "Income-oriented fund listed in the statement bond-fund section. Manager documents identify non-investment-grade securities and derivatives among its investment risks.",
+      "coverage": "strategy_only",
+      "as_of": "2026-02-27",
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Flexible fixed income — primary fund source",
+          "url": "https://www.man.com/documents/download/dbf19-f7dff-e3634-283bd/Man_Dynamic_Income_DYVB_USD_Factsheet_English_%2528United_States%2529_27-02-2026.pdf",
+          "as_of": "2026-02-27",
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Source is a different share class of the same Man Dynamic Income fund. No individual bond/issuer portfolio weights verified."
+      ],
+      "statement_value_usd": 192145.93,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-129",
+      "holdings_ids": [
+        "holding-129"
+      ],
+      "key": "fund:global-x-gold-etf",
+      "name": "Global X Gold ETF Registered-units",
+      "isin": "CA37964E1051",
+      "ticker": "HUG",
+      "theme_keys": [
+        "gold",
+        "gold-futures"
+      ],
+      "theme": "Gold futures",
+      "strategy": "Tracks a rolling gold-futures index: Solactive Gold Front Month MD Rolling Futures Index ER.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Gold futures — primary fund source",
+          "url": "https://www.globalx.ca/product/HUG",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Gold-futures exposure; the statement places this vehicle in equity funds. Do not classify it as gold-mining shares or physical bullion."
+      ],
+      "statement_value_usd": 12200.88,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-130",
+      "holdings_ids": [
+        "holding-130"
+      ],
+      "key": "fund:ws-blue-whale-growth",
+      "name": "WS Blue Whale Investment Funds - WS Blue Whale Growth Fund",
+      "isin": "GB00BD6PG787",
+      "ticker": null,
+      "theme_keys": [
+        "global-equities",
+        "technology"
+      ],
+      "theme": "Global active equities",
+      "strategy": "Concentrated active stock selection across geographies and sectors.",
+      "coverage": "historical_constituents",
+      "as_of": "2025-12-31",
+      "holdings_as_of": "2025-12-31",
+      "sources": [
+        {
+          "title": "Global active equities — primary fund source",
+          "url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "as_of": "2025-12-31",
+          "kind": "historical_holdings",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [
+        {
+          "underlying_key": "company:broadcom",
+          "name": "Broadcom",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:newmont",
+          "name": "Newmont",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:flutter-entertainment",
+          "name": "Flutter Entertainment",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:nvidia",
+          "name": "NVIDIA",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:sk-hynix",
+          "name": "SK Hynix",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:taiwan-semiconductor",
+          "name": "Taiwan Semiconductor Manufacturing",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:lam-research",
+          "name": "Lam Research",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:uber",
+          "name": "Uber",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:moncler",
+          "name": "Moncler",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        },
+        {
+          "underlying_key": "company:vertiv",
+          "name": "Vertiv",
+          "ticker": null,
+          "weight_pct": null,
+          "as_of": "2025-12-31",
+          "source_url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
+          "exposure_basis": "named_equity_holdings_without_individual_weights",
+          "historical_only": true,
+          "security_type_note": "The source names the company, without a ticker or share class."
+        }
+      ],
+      "notes": [
+        "Ten named holdings are from 31 December 2025, roughly eight months before the account statement. Their combined weight is disclosed, but individual weights are not. Names are not confirmed holdings on 23 August 2026."
+      ],
+      "statement_value_usd": 141764.82,
+      "weight_basis": "named_equity_holdings_without_individual_weights",
+      "constituent_coverage_pct": 60.3,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-131",
+      "holdings_ids": [
+        "holding-131"
+      ],
+      "key": "fund:csop-hang-seng-tech",
+      "name": "CSOP ETF Series - CSOP Hang Seng TECH Index ETF",
+      "isin": "HK0000642568",
+      "ticker": "3033",
+      "theme_keys": [
+        "china-tech",
+        "technology",
+        "china-equities"
+      ],
+      "theme": "Hong Kong-listed technology",
+      "strategy": "Physical ETF using full replication of the Hang Seng TECH Index, comprising 30 Hong Kong-listed technology or innovative companies.",
+      "coverage": "historical_constituents",
+      "as_of": "2025-12-31",
+      "holdings_as_of": "2025-12-31",
+      "sources": [
+        {
+          "title": "Hong Kong-listed technology — primary fund source",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "as_of": "2025-12-31",
+          "kind": "historical_holdings",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [
+        {
+          "underlying_key": "company:meituan",
+          "name": "Meituan",
+          "ticker": "3690",
+          "weight_pct": 8.72,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:smic",
+          "name": "Semiconductor Manufacturing International",
+          "ticker": "0981",
+          "weight_pct": 8.39,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:tencent",
+          "name": "Tencent",
+          "ticker": "0700",
+          "weight_pct": 7.91,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:xiaomi",
+          "name": "Xiaomi",
+          "ticker": "1810",
+          "weight_pct": 7.87,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:netease",
+          "name": "NetEase",
+          "ticker": "9999",
+          "weight_pct": 7.79,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:byd",
+          "name": "BYD",
+          "ticker": "1211",
+          "weight_pct": 7.76,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:alibaba",
+          "name": "Alibaba",
+          "ticker": "9988",
+          "weight_pct": 7.41,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:jd-com",
+          "name": "JD.com",
+          "ticker": "9618",
+          "weight_pct": 5.1,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:kuaishou",
+          "name": "Kuaishou",
+          "ticker": "1024",
+          "weight_pct": 5.05,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:baidu",
+          "name": "Baidu",
+          "ticker": "9888",
+          "weight_pct": 4.24,
+          "as_of": "2025-12-31",
+          "source_url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        }
+      ],
+      "notes": [
+        "Selected ten holdings from the 31 December 2025 portfolio in the 2025 annual report. These are dated historical weights, not a 23 August 2026 portfolio. The 3033 fund is also referenced by a structured accumulator."
+      ],
+      "statement_value_usd": 237881.65,
+      "weight_basis": "equity_weight_pct_of_fund_nav",
+      "constituent_coverage_pct": 70.24,
+      "quantified_coverage_pct": 70.24,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-132",
+      "holdings_ids": [
+        "holding-132"
+      ],
+      "key": "fund:ashoka-whiteoak-india-opportunities",
+      "name": "Ashoka WhiteOak ICAV - Ashoka WhiteOak India Opportunities Fund",
+      "isin": "IE00BDR0R792",
+      "ticker": null,
+      "theme_keys": [
+        "india-equities"
+      ],
+      "theme": "Indian equities",
+      "strategy": "Primarily equity and equity-related securities of Indian companies.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Indian equities — primary fund source",
+          "url": "https://www.whiteoakcapitalpartners.com/ucits.php",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 194022.02,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-133",
+      "holdings_ids": [
+        "holding-133"
+      ],
+      "key": "fund:bellevue-medtech-services",
+      "name": "Bellevue Funds (Lux) SICAV - Bellevue Medtech & Services",
+      "isin": "LU0453818899",
+      "ticker": null,
+      "theme_keys": [
+        "healthcare",
+        "medical-technology"
+      ],
+      "theme": "Medical technology and healthcare services",
+      "strategy": "Global medical-technology and healthcare-services companies, excluding drug makers.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Medical technology and healthcare services — primary fund source",
+          "url": "https://www.bellevue.ch/all-en/all/products/healthcare-investments/medtech/bellevue-medtech-services/b-shares-usd",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 49395.56,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-134",
+      "holdings_ids": [
+        "holding-134"
+      ],
+      "key": "fund:cambria-foreign-shareholder-yield",
+      "name": "Cambria ETF Trust",
+      "isin": "US1320613003",
+      "ticker": "FYLD",
+      "theme_keys": [
+        "international-equities",
+        "dividends-value"
+      ],
+      "theme": "International shareholder yield",
+      "strategy": "International equities selected for dividends, net share repurchases and debt reduction.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "International shareholder yield — primary fund source",
+          "url": "https://www.cambriafunds.com/fyld",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "The statement shortens the name to Cambria ETF Trust. ISIN US1320613003 / CUSIP 132061300 identifies FYLD, Foreign Shareholder Yield; it is not SYLD."
+      ],
+      "statement_value_usd": 40750.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-135",
+      "holdings_ids": [
+        "holding-135"
+      ],
+      "key": "fund:invesco-asian-equity",
+      "name": "Invesco Funds SICAV - Invesco Asian Equity Fund",
+      "isin": "LU1775951525",
+      "ticker": null,
+      "theme_keys": [
+        "asia-equities"
+      ],
+      "theme": "Asian equities",
+      "strategy": "Active Asian equity portfolio with a valuation-oriented approach.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Asian equities — primary fund source",
+          "url": "https://www.invesco.com/uk/en/insights/invesco-asian-equity-fund.html",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 145047.06,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-136",
+      "holdings_ids": [
+        "holding-136"
+      ],
+      "key": "fund:ishares-expanded-tech-software",
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "isin": "US4642875151",
+      "ticker": "IGV",
+      "theme_keys": [
+        "software",
+        "technology"
+      ],
+      "theme": "North American software",
+      "strategy": "Tracks the S&P North American Expanded Technology Software Index, including software and selected interactive-media businesses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "North American software — primary fund source",
+          "url": "https://www.ishares.com/us/products/239771/IGV",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "The accessible official holdings CSV is dated 4 September 2026. It was excluded from historical look-through because it is later than the account statement."
+      ],
+      "statement_value_usd": 120942.9,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-137",
+      "holdings_ids": [
+        "holding-137"
+      ],
+      "key": "fund:ishares-edge-msci-usa-value-factor",
+      "name": "iShares IV PLC - iShares Edge MSCI USA Value Factor UCITS ETF",
+      "isin": "IE00BD1F4M44",
+      "ticker": "IUVL",
+      "theme_keys": [
+        "us-equities",
+        "dividends-value"
+      ],
+      "theme": "US value equities",
+      "strategy": "Tracks the MSCI USA Enhanced Value Net Index, a subset of US stocks selected on valuation fundamentals.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US value equities — primary fund source",
+          "url": "https://www.ishares.com/ch/individual/en/products/285207/ishares-edge-msci-usa-value-factor-ucits-etf-usd-acc-fund",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 19385.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-138",
+      "holdings_ids": [
+        "holding-138"
+      ],
+      "key": "fund:ishares-semiconductor",
+      "name": "iShares Semiconductor ETF",
+      "isin": "US4642875235",
+      "ticker": "SOXX",
+      "theme_keys": [
+        "semiconductors",
+        "technology"
+      ],
+      "theme": "Semiconductors",
+      "strategy": "Tracks the NYSE Semiconductor Index, covering semiconductor and semiconductor-equipment businesses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Semiconductors — primary fund source",
+          "url": "https://www.ishares.com/us/products/239705/SOXX",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Shares a semiconductor theme with SMH. No fund-specific historical constituent weights were verified for the statement date; similar mandate does not mean identical holdings."
+      ],
+      "statement_value_usd": 58245.6,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-139",
+      "holdings_ids": [
+        "holding-139"
+      ],
+      "key": "fund:jpmorgan-betabuilders-japan",
+      "name": "JPMorgan BetaBuilders Japan Fund",
+      "isin": "US46641Q2176",
+      "ticker": "BBJP",
+      "theme_keys": [
+        "japan-equities"
+      ],
+      "theme": "Japanese equities",
+      "strategy": "Passively tracks the Morningstar Japan Target Market Exposure Index.",
+      "coverage": "strategy_only",
+      "as_of": "2026-03-31",
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Japanese equities — primary fund source",
+          "url": "https://am.jpmorgan.com/content/dam/jpm-am-aem/americas/us/en/literature/fact-sheet/etfs/FS-BBJP.PDF",
+          "as_of": "2026-03-31",
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 76870.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-140",
+      "holdings_ids": [
+        "holding-140"
+      ],
+      "key": "fund:lazard-global-listed-infrastructure",
+      "name": "Lazard Global Active Funds PLC - Lazard Global Listed Infrastructure Equity Fund",
+      "isin": "IE00BZC0SC05",
+      "ticker": null,
+      "theme_keys": [
+        "infrastructure"
+      ],
+      "theme": "Global listed infrastructure",
+      "strategy": "Global listed infrastructure companies, seeking income and capital appreciation.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Global listed infrastructure — primary fund source",
+          "url": "https://www.lazardassetmanagement.com/docs/25666/SupplementLazardGlobalListedInfrastructureEquityFund_en.pdf",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 361937.81,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-141",
+      "holdings_ids": [
+        "holding-141"
+      ],
+      "key": "fund:rba-american-industrial-renaissance",
+      "name": "RBA American Industrial Renaissance ETF",
+      "isin": "US33738R7044",
+      "ticker": "AIRR",
+      "theme_keys": [
+        "industrials",
+        "us-equities"
+      ],
+      "theme": "US industrial activity",
+      "strategy": "Tracks the Richard Bernstein Advisors American Industrial Renaissance Index.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US industrial activity — primary fund source",
+          "url": "https://www.ftportfolios.com/Retail/etf/etfsummary.aspx?Ticker=AIRR",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 57635.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-142",
+      "holdings_ids": [
+        "holding-142"
+      ],
+      "key": "fund:schwab-us-dividend-equity",
+      "name": "Schwab US Dividend Equity ETF",
+      "isin": "US8085247976",
+      "ticker": "SCHD",
+      "theme_keys": [
+        "us-equities",
+        "dividends-value"
+      ],
+      "theme": "US dividend equities",
+      "strategy": "Passively tracks the Dow Jones US Dividend 100 Index.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US dividend equities — primary fund source",
+          "url": "https://www.schwabassetmanagement.com/products/schd",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Current manager pages update frequently. Search-cache holdings were not treated as a fixed historical fund file."
+      ],
+      "statement_value_usd": 70220.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-143",
+      "holdings_ids": [
+        "holding-143"
+      ],
+      "key": "fund:vaneck-gold-miners",
+      "name": "VanEck Gold Miners ETF",
+      "isin": "US92189F1066",
+      "ticker": "GDX",
+      "theme_keys": [
+        "gold",
+        "gold-miners",
+        "materials"
+      ],
+      "theme": "Gold-mining equities",
+      "strategy": "Tracks the MarketVector Global Gold Miners Index, comprising gold-mining businesses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Gold-mining equities — primary fund source",
+          "url": "https://www.vaneck.com/us/en/investments/gold-miners-etf-gdx/holdings/",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Mining-company equity exposure differs from physical gold and gold futures. No dated historical constituent weights included."
+      ],
+      "statement_value_usd": 133679.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-144",
+      "holdings_ids": [
+        "holding-144"
+      ],
+      "key": "fund:vaneck-semiconductor",
+      "name": "VanEck Semiconductor ETF",
+      "isin": "US92189F6768",
+      "ticker": "SMH",
+      "theme_keys": [
+        "semiconductors",
+        "technology"
+      ],
+      "theme": "Semiconductors",
+      "strategy": "Tracks the MVIS US Listed Semiconductor 25 Index, covering semiconductor production and equipment.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Semiconductors — primary fund source",
+          "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "The accessible official factsheet is dated 31 August 2026, later than the account statement; its holdings were excluded from historical look-through."
+      ],
+      "statement_value_usd": 56042.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-145",
+      "holdings_ids": [
+        "holding-145"
+      ],
+      "key": "fund:vanguard-industrials",
+      "name": "Vanguard Industrials ETF",
+      "isin": "US92204A6038",
+      "ticker": "VIS",
+      "theme_keys": [
+        "industrials",
+        "us-equities"
+      ],
+      "theme": "US industrials",
+      "strategy": "Tracks the MSCI US Investable Market Industrials 25/50 Index across US industrial-company sizes.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US industrials — primary fund source",
+          "url": "https://advisors.vanguard.com/investments/products/vis/vanguard-industrials-etf",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 6915.2,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-146",
+      "holdings_ids": [
+        "holding-146"
+      ],
+      "key": "fund:vanguard-russell-2000",
+      "name": "Vanguard Russell 2000 ETF",
+      "isin": "US92206C6646",
+      "ticker": "VTWO",
+      "theme_keys": [
+        "us-small-cap",
+        "us-equities"
+      ],
+      "theme": "US small companies",
+      "strategy": "Tracks the Russell 2000 Index across small US companies.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US small companies — primary fund source",
+          "url": "https://advisors.vanguard.com/investments/products/vtwo/vanguard-russell-2000-etf",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 60625.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-147",
+      "holdings_ids": [
+        "holding-147"
+      ],
+      "key": "fund:vanguard-sp500",
+      "name": "Vanguard S&P 500 ETF",
+      "isin": "US9229083632",
+      "ticker": "VOO",
+      "theme_keys": [
+        "us-large-cap",
+        "us-equities"
+      ],
+      "theme": "Large US companies",
+      "strategy": "Passively tracks the S&P 500 Index.",
+      "coverage": "historical_constituents",
+      "as_of": "2026-06-30",
+      "holdings_as_of": "2026-06-30",
+      "sources": [
+        {
+          "title": "Large US companies — primary fund source",
+          "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "as_of": "2026-06-30",
+          "kind": "historical_holdings",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [
+        {
+          "underlying_key": "company:nvidia",
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "weight_pct": 7.5,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:apple",
+          "name": "Apple",
+          "ticker": "AAPL",
+          "weight_pct": 6.57,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:microsoft",
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "weight_pct": 4.29,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:amazon",
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "weight_pct": 3.61,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:alphabet",
+          "name": "Alphabet Class A",
+          "ticker": "GOOGL",
+          "weight_pct": 3.24,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:broadcom",
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "weight_pct": 2.77,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:alphabet",
+          "name": "Alphabet Class C",
+          "ticker": "GOOG",
+          "weight_pct": 2.58,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:micron-technology",
+          "name": "Micron Technology",
+          "ticker": "MU",
+          "weight_pct": 2.01,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:meta-platforms",
+          "name": "Meta Platforms",
+          "ticker": "META",
+          "weight_pct": 1.91,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        },
+        {
+          "underlying_key": "company:tesla",
+          "name": "Tesla",
+          "ticker": "TSLA",
+          "weight_pct": 1.83,
+          "as_of": "2026-06-30",
+          "source_url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
+          "exposure_basis": "equity_weight_pct_of_fund_nav",
+          "historical_only": true
+        }
+      ],
+      "notes": [
+        "Top ten securities only, as published in the official 30 June 2026 holdings table. Alphabet A and C are separate securities with a common company key. These weights predate the statement and are indicative, not exact 23 August holdings."
+      ],
+      "statement_value_usd": 70371.0,
+      "weight_basis": "equity_weight_pct_of_fund_nav",
+      "constituent_coverage_pct": 36.31,
+      "quantified_coverage_pct": 36.31,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-166",
+      "holdings_ids": [
+        "holding-166"
+      ],
+      "key": "fund:antarctica-alpha-access-fhe",
+      "name": "Antarctica Alpha Access Portfolio SPC Ltd - FHE Fund Segregated Portfolio",
+      "isin": "VGG039475493",
+      "ticker": null,
+      "theme_keys": [
+        "hedge-funds"
+      ],
+      "theme": "Hedge fund / strategy unknown",
+      "strategy": "The statement lists Antarctica Alpha Access FHE as a hedge fund.",
+      "coverage": "opaque",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [],
+      "named_constituents": [],
+      "notes": [
+        "No reliable public primary-source constituent or strategy disclosure was verified for this exact segregated portfolio."
+      ],
+      "statement_value_usd": 284306.91,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-167",
+      "holdings_ids": [
+        "holding-167"
+      ],
+      "key": "fund:seligman-tech-spectrum-offshore",
+      "name": "Seligman Tech Spectrum Offshore Fund",
+      "isin": null,
+      "ticker": null,
+      "theme_keys": [
+        "hedge-funds"
+      ],
+      "theme": "Hedge fund / holdings unknown",
+      "strategy": "Exact offshore vehicle identity appears in an SEC exempt-offering filing.",
+      "coverage": "opaque",
+      "as_of": "2025-10-03",
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Hedge fund / holdings unknown — primary fund source",
+          "url": "https://www.sec.gov/Archives/edgar/data/1722509/000092963825003761/xslFormDX08/primary_doc.xml",
+          "as_of": "2025-10-03",
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "The filing verifies the vehicle, not its underlying portfolio. No company overlap or numerical technology allocation is inferred from its name."
+      ],
+      "statement_value_usd": 164672.06,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-168",
+      "holdings_ids": [
+        "holding-168"
+      ],
+      "key": "fund:crown-direct-andromeda",
+      "name": "Crown Direct - Andromeda S.C.SP.",
+      "isin": "LU2177022089",
+      "ticker": null,
+      "theme_keys": [
+        "private-equity"
+      ],
+      "theme": "Private equity / holdings unknown",
+      "strategy": "Private-equity vehicle as classified by the statement.",
+      "coverage": "opaque",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [],
+      "named_constituents": [],
+      "notes": [
+        "No dated public primary-source underlying portfolio was verified for this exact fund."
+      ],
+      "statement_value_usd": 488651.45,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-169",
+      "holdings_ids": [
+        "holding-169"
+      ],
+      "key": "fund:lightrock-climate-impact-feeder",
+      "name": "LGT PB AIF SICAV - Lightrock Climate Impact Feeder Fund",
+      "isin": "LI1185524074",
+      "ticker": null,
+      "theme_keys": [
+        "private-equity",
+        "climate-private-equity"
+      ],
+      "theme": "Climate-focused private equity",
+      "strategy": "Feeder named for Lightrock Climate Impact Fund, whose manager describes growth-stage companies working toward a net-zero economy.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Climate-focused private equity — primary fund source",
+          "url": "https://www.lightrock.com/news/lightrock-closes-inaugural-climate-impact-fund-at-eu860-million-above-initial-hard-cap",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Source describes the named underlying strategy; it does not provide this feeder share class portfolio or company weights. No manager-wide portfolio list has been substituted."
+      ],
+      "statement_value_usd": 266184.5,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-170",
+      "holdings_ids": [
+        "holding-170"
+      ],
+      "key": "fund:lightrock-evergreen",
+      "name": "Lightrock Evergreen Fund SICAV",
+      "isin": "LI1114650206",
+      "ticker": null,
+      "theme_keys": [
+        "private-equity",
+        "impact-private-equity"
+      ],
+      "theme": "Private impact investments",
+      "strategy": "LGT offering that provides exposure to Lightrock private impact investments.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Private impact investments — primary fund source",
+          "url": "https://www.lgt.com/sg-en/about-lgt/lgt-news/lgt-and-lightrock-raise-more-than-usd-900-million-for-first-joint-impact-offering-89902",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Public launch description; no dated look-through holdings or company weights verified."
+      ],
+      "statement_value_usd": 264413.38,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-171",
+      "holdings_ids": [
+        "holding-171"
+      ],
+      "key": "fund:vanguard-real-estate",
+      "name": "Vanguard Real Estate ETF",
+      "isin": "US9229085538",
+      "ticker": "VNQ",
+      "theme_keys": [
+        "real-estate",
+        "us-equities"
+      ],
+      "theme": "US listed real estate",
+      "strategy": "Tracks the MSCI US Investable Market Real Estate 25/50 Index, including REITs and real-estate companies.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "US listed real estate — primary fund source",
+          "url": "https://advisors.vanguard.com/investments/products/vnq/vanguard-real-estate-etf?holding=true",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [],
+      "statement_value_usd": 249008.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-178",
+      "holdings_ids": [
+        "holding-178"
+      ],
+      "key": "fund:abrdn-platinum",
+      "name": "abrdn Platinum ETF Trust",
+      "isin": "US0032601066",
+      "ticker": "PPLT",
+      "theme_keys": [
+        "platinum",
+        "precious-metals"
+      ],
+      "theme": "Physical platinum",
+      "strategy": "Seeks physical-platinum price exposure less trust expenses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Physical platinum — primary fund source",
+          "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032601066",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Commodity exposure, with no company constituents. No exact historical metal allocation percentage has been assumed."
+      ],
+      "statement_value_usd": 68080.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-179",
+      "holdings_ids": [
+        "holding-179"
+      ],
+      "key": "fund:abrdn-silver",
+      "name": "abrdn Silver ETF Trust",
+      "isin": "US0032641088",
+      "ticker": "SIVR",
+      "theme_keys": [
+        "silver",
+        "precious-metals"
+      ],
+      "theme": "Physical silver",
+      "strategy": "Holds silver bullion to reflect silver prices less trust expenses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Physical silver — primary fund source",
+          "url": "https://www.aberdeeninvestments.com/en-us/investor/investment-solutions/commodities/sivr",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Commodity exposure, with no company constituents. No exact historical metal allocation percentage has been assumed."
+      ],
+      "statement_value_usd": 65900.0,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-180",
+      "holdings_ids": [
+        "holding-180"
+      ],
+      "key": "fund:spdr-gold-trust",
+      "name": "SPDR Gold Trust",
+      "isin": "US78463V1070",
+      "ticker": "GLD",
+      "theme_keys": [
+        "gold",
+        "precious-metals"
+      ],
+      "theme": "Physical gold",
+      "strategy": "Seeks the performance of gold bullion prices less trust expenses.",
+      "coverage": "strategy_only",
+      "as_of": null,
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Physical gold — primary fund source",
+          "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld",
+          "as_of": null,
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "Commodity exposure, with no company constituents. The account also contains a structured accumulator referencing GLD. No exact historical gold allocation percentage has been assumed."
+      ],
+      "statement_value_usd": 16511.04,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    },
+    {
+      "holding_id": "holding-335",
+      "holdings_ids": [
+        "holding-335"
+      ],
+      "key": "fund:franklin-income",
+      "name": "Franklin Templeton Investment Funds SICAV - Franklin Income Fund",
+      "isin": "LU0098860793",
+      "ticker": null,
+      "theme_keys": [
+        "multi-asset",
+        "credit",
+        "us-equities"
+      ],
+      "theme": "US equity and bond income",
+      "strategy": "Mix of US equities, corporate and government bonds; some bonds may be below investment grade.",
+      "coverage": "historical_constituents",
+      "as_of": "2026-07-31",
+      "holdings_as_of": "2026-07-31",
+      "sources": [
+        {
+          "title": "US equity and bond income — primary fund source",
+          "url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "as_of": "2026-07-31",
+          "kind": "historical_holdings",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [
+        {
+          "underlying_key": "company:community-health-systems",
+          "name": "Community Health Systems",
+          "ticker": "CYH",
+          "weight_pct": 2.48,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:microsoft",
+          "name": "Microsoft",
+          "ticker": "MSFT",
+          "weight_pct": 1.86,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:amazon",
+          "name": "Amazon",
+          "ticker": "AMZN",
+          "weight_pct": 1.81,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:home-depot",
+          "name": "Home Depot",
+          "ticker": "HD",
+          "weight_pct": 1.74,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:procter-gamble",
+          "name": "Procter & Gamble",
+          "ticker": "PG",
+          "weight_pct": 1.72,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:alphabet",
+          "name": "Alphabet",
+          "ticker": "GOOG/GOOGL",
+          "weight_pct": 1.65,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:oracle",
+          "name": "Oracle",
+          "ticker": "ORCL",
+          "weight_pct": 1.54,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        },
+        {
+          "underlying_key": "company:southern",
+          "name": "Southern Company",
+          "ticker": "SO",
+          "weight_pct": 1.53,
+          "as_of": "2026-07-31",
+          "source_url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
+          "exposure_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+          "historical_only": true,
+          "ticker_basis": "Company lookup alias only; the source reports an issuer, not a security type or ticker."
+        }
+      ],
+      "notes": [
+        "The source reports top issuer exposures across the fund. They are NOT equity-only weights and may include debt, convertibles or equity-linked notes. Keep issuer exposure separate from share-equivalent ownership."
+      ],
+      "statement_value_usd": 199402.99,
+      "weight_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
+      "constituent_coverage_pct": 14.33,
+      "quantified_coverage_pct": 14.33,
+      "complete_holdings": false,
+      "noncompany_top_issuers": [
+        {
+          "name": "United States Treasury Bond",
+          "weight_pct": 6.1,
+          "as_of": "2026-07-31"
+        },
+        {
+          "name": "Government National Mortgage Association",
+          "weight_pct": 1.98,
+          "as_of": "2026-07-31"
+        }
+      ],
+      "asset_allocation_pct": {
+        "fixed_income": 44.9,
+        "convertibles_and_equity_linked_notes": 28.01,
+        "equity": 21.59,
+        "cash_and_cash_equivalents": 5.5
+      }
+    },
+    {
+      "holding_id": "holding-336",
+      "holdings_ids": [
+        "holding-336"
+      ],
+      "key": "fund:lgt-premium-strategy-gim",
+      "name": "LGT (CH) Premium Strategy GIM",
+      "isin": "CH0347662535",
+      "ticker": null,
+      "theme_keys": [
+        "multi-asset",
+        "alternatives"
+      ],
+      "theme": "Global multi-asset and alternatives",
+      "strategy": "Uses external managers, direct investments and passive instruments across asset classes, including alternative investments.",
+      "coverage": "strategy_only",
+      "as_of": "2025-05-31",
+      "holdings_as_of": null,
+      "sources": [
+        {
+          "title": "Global multi-asset and alternatives — primary fund source",
+          "url": "https://sfd.lbswiss.ch/sfdpub/docs/fsm-6307_00_04-20250531-en.pdf",
+          "as_of": "2025-05-31",
+          "kind": "strategy",
+          "retrieved_on": "2026-09-07"
+        }
+      ],
+      "named_constituents": [],
+      "notes": [
+        "LGT Capital Partners-produced factsheet distributed by LB Swiss Fund Services; same ISIN. Strategy source is dated May 2025. No constituent-company portfolio verified."
+      ],
+      "statement_value_usd": 379686.81,
+      "weight_basis": null,
+      "constituent_coverage_pct": null,
+      "quantified_coverage_pct": 0,
+      "complete_holdings": false
+    }
+  ],
+  "checks": {
+    "fund_count": 32,
+    "fund_statement_value_usd": 4779760.52,
+    "historical_constituent_fund_count": 4,
+    "strategy_only_fund_count": 24,
+    "opaque_fund_count": 4,
+    "named_constituent_rows": 38,
+    "all_statement_funds_mapped": true,
+    "no_post_statement_constituent_dates": true
+  }
+}
