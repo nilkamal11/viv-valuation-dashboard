@@ -25,10 +25,13 @@ jobs:
       - run: npm run build
         env:
           SITE_BASE_PATH: /viv-valuation-dashboard
+      - run: node scripts/export-pages.mjs
+        env:
+          SITE_BASE_PATH: /viv-valuation-dashboard
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/client
+          path: dist/pages
   deploy:
     needs: build
     runs-on: ubuntu-latest
