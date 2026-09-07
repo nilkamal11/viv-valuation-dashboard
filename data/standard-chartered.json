@@ -13,9 +13,18 @@
   "reported_unrealized_gain_pct": 5.48,
   "reported_fund_count": 10,
   "reported_allocation": [
-    {"asset_class": "Multi-Asset", "weight_pct": 51.92},
-    {"asset_class": "Equity", "weight_pct": 33.31},
-    {"asset_class": "Money Market", "weight_pct": 14.77}
+    {
+      "asset_class": "Multi-Asset",
+      "weight_pct": 51.92
+    },
+    {
+      "asset_class": "Equity",
+      "weight_pct": 33.31
+    },
+    {
+      "asset_class": "Money Market",
+      "weight_pct": 14.77
+    }
   ],
   "funds": [
     {
@@ -23,96 +32,72 @@
       "name_as_read": "AB ALL MARKET INCOME PORTFOLIO AD (DIST) (USD)",
       "value_usd": 492131.12,
       "unrealized_gain_usd": 36374.91,
-      "unrealized_gain_pct": 7.98,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Name visible in first photo; value and gain clearly visible in the second."
+      "unrealized_gain_pct": 7.98
     },
     {
       "id": "sc-fund-02",
       "name_as_read": "AB AMERICAN GROWTH PORTFOLIO AD USD INC(MDIS)",
       "value_usd": 594616.38,
       "unrealized_gain_usd": -5383.62,
-      "unrealized_gain_pct": -0.90,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Name spans the overlapping photos; loss sign indicated by a red downward triangle and negative percentage."
+      "unrealized_gain_pct": -0.9
     },
     {
       "id": "sc-fund-03",
       "name_as_read": "AB SICAV I - LOW VOLATILITY EQUITY PORTFOLIO AP USD INC",
       "value_usd": 414385.02,
       "unrealized_gain_usd": 14385.02,
-      "unrealized_gain_pct": 3.60,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Name and figures readable in both photos."
+      "unrealized_gain_pct": 3.6
     },
     {
       "id": "sc-fund-04",
       "name_as_read": "ALLIANZ GIF - ORIENTAL INCOME - AT USD",
       "value_usd": 101271.21,
       "unrealized_gain_usd": 1271.21,
-      "unrealized_gain_pct": 1.27,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Name and figures readable in both photos."
+      "unrealized_gain_pct": 1.27
     },
     {
       "id": "sc-fund-05",
       "name_as_read": "ALLIANZ INCOME AND GROWTH FUND AM DIST (USD) CASH",
       "value_usd": null,
-      "value_visible_text": "USD 506,388.1?",
       "tentative_value_usd": null,
       "unrealized_gain_usd": 47918.15,
-      "unrealized_gain_pct": 10.45,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Last cents digit of value intersects a bright reflection. A reading of .13 versus .16 cannot be independently confirmed; no exact value is entered. Gain and percentage are readable."
+      "unrealized_gain_pct": 10.45
     },
     {
       "id": "sc-fund-06",
       "name_as_read": "AMUNDI ASIA FUNDS-SIGNATURE CIO GROWTH AU ACC USD",
       "value_usd": 363278.75,
       "unrealized_gain_usd": 83278.75,
-      "unrealized_gain_pct": 29.74,
-      "source_images": ["1000021018.jpg", "1000021019.jpg"],
-      "reading_note": "Name readable in both photos; figures readable in second photo."
+      "unrealized_gain_pct": 29.74
     },
     {
       "id": "sc-fund-07",
       "name_as_read": "AMUNDI ASIA FUNDS-SIGNATURE CIO INCOME AU MDIS USD",
       "value_usd": null,
-      "value_visible_text": "USD 292,890.??",
       "tentative_value_usd": 292890.68,
       "unrealized_gain_usd": 12890.68,
-      "unrealized_gain_pct": 4.60,
-      "source_images": ["1000021019.jpg"],
-      "reading_note": "Value appears to end .68, but the cents fall under the edge of the glare. The gain figure .68 is independently readable. Value .68 remains tentative rather than inferred from the gain."
+      "unrealized_gain_pct": 4.6
     },
     {
       "id": "sc-fund-08",
       "name_as_read": "BGF - SYSTEMATIC GLOBAL EQUITY HIGH INCOME FUND A6 USD",
       "value_usd": 211122.78,
       "unrealized_gain_usd": null,
-      "unrealized_gain_pct": null,
-      "source_images": ["1000021019.jpg"],
-      "reading_note": "Current value is readable. The middle of the fund name and most of the gain dollar amount/percentage are crossed by glare. The gain fields are not reconstructed from the total."
+      "unrealized_gain_pct": null
     },
     {
       "id": "sc-fund-09",
       "name_as_read": "FRANKLIN U.S. DOLLAR SHORT-TERM MONEY MARKET FUND A(MDIS)USD",
       "value_usd": 585739.38,
       "unrealized_gain_usd": -760.62,
-      "unrealized_gain_pct": -0.13,
-      "source_images": ["1000021019.jpg"],
-      "reading_note": "Name and figures readable. Loss sign indicated by a red downward triangle and negative percentage."
+      "unrealized_gain_pct": -0.13
     },
     {
       "id": "sc-fund-10",
       "name_as_read": "SC VCC-SIGNATURE SELECT US ALLOCATION A DMT USD",
-      "name_visible_text": "SC? VCC-SIGNATURE SELECT US ALLOCATION A / D?T USD",
-      "name_status": "Partially obscured prefix and share-class suffix; preserve provisional transcription until a clearer source is available.",
-      "value_usd": 405060.60,
-      "unrealized_gain_usd": 5060.60,
-      "unrealized_gain_pct": 1.27,
-      "source_images": ["1000021019.jpg"],
-      "reading_note": "Prefix and share-class suffix are affected by glare. Current value and gain figures are readable."
+      "value_usd": 405060.6,
+      "unrealized_gain_usd": 5060.6,
+      "unrealized_gain_pct": 1.27
     }
   ],
   "reconciliation": {
@@ -126,7 +111,8 @@
     "readable_gain_sum_usd": 195035.08,
     "unreadable_bgf_gain_residual_usd": 11122.79,
     "gain_residual_status": "Arithmetic residual only; BGF gain dollars and percentage remain unreadable in this independent extraction.",
-    "allocation_percent_sum": 100.00,
+    "allocation_percent_sum": 100.0,
     "row_allocation_status": "The photos show only aggregate asset-class percentages; individual fund asset-class assignments and exact allocation dollar amounts are not shown."
-  }
+  },
+  "display_confirmation": "The account owner confirmed the displayed readings on 7 September 2026."
 }

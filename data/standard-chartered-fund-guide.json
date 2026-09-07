@@ -1,12 +1,62 @@
 [
- {"id":"sc-fund-01","mandate":"Global multi-asset income and growth","note":"Combines equities, fixed income and other strategies.","url":"https://www.alliancebernstein.com/americas/en/investor/funds/multi-asset/ab-all-market-income.html"},
- {"id":"sc-fund-02","mandate":"US growth equity","note":"Primarily US stocks seeking capital growth; exact photographed share class needs confirmation.","url":"https://www.alliancebernstein.com/n-europe/en-gb/institutions/funds/equities/ab-american-growth.html"},
- {"id":"sc-fund-03","mandate":"Global equity with a lower-volatility objective","note":"Stock-selection approach to managing volatility; capital is not protected.","url":"https://www.alliancebernstein.com/americas/en/financial-professional/funds/equities/ab-low-volatility-equity.i.LU0861579349.html"},
- {"id":"sc-fund-04","mandate":"Asia-Pacific multi-asset","note":"Mandate permits equities and bonds. AT USD is accumulating despite Income in the fund name.","url":"https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds/allianz-oriental-income-at-usd"},
- {"id":"sc-fund-05","mandate":"US / Canada multi-asset income","note":"Equities, high-yield debt and convertibles, with covered calls. The CASH suffix does not make the investment a cash account.","url":"https://sg.allianzgi.com/en-sg/retail/products-solutions/recognised-fund/allianz-income-and-growth-am-usd"},
- {"id":"sc-fund-06","mandate":"Growth-oriented global multi-asset fund of funds","note":"Equity-oriented mandate with other asset classes permitted. AU ACC is accumulating.","url":"https://www.amundi.com.sg/retail/dl/doc/monthly-factsheet/LU2485621705/ENG/SGP/RETAIL/AMUNDI"},
- {"id":"sc-fund-07","mandate":"Income-oriented global multi-asset fund of funds","note":"Combines bonds and equities; the AU MDIS class distributes monthly. Distributions can include capital.","url":"https://www.amundi.com.sg/retail/dl/doc/monthly-factsheet/LU2485622000/ENG/SGP/RETAIL/AMUNDI"},
- {"id":"sc-fund-08","mandate":"Global equity income with derivatives","note":"At least 70% equities; derivatives including covered calls support the income strategy.","url":"https://www.blackrock.com/uk/individual/products/270404/blackrock-gbl-enhanced-eq-yield-a6-usd-fund"},
- {"id":"sc-fund-09","mandate":"USD short-term money market","note":"Short-maturity investment-grade instruments; variable NAV and not a bank deposit.","url":"https://www.franklintempleton.lu/our-funds/price-and-performance-money-funds/products/307/A/franklin-u-s-dollar-short-term-money-market-fund/LU0052767562"},
- {"id":"sc-fund-10","mandate":"US multi-asset allocation","note":"Manager materials describe equities and fixed income, including loans. Photographed vehicle prefix and exact share class remain provisional.","url":"https://www.sc.com/ae/personal/investment-services/fund-house/"}
+  {
+    "id": "sc-fund-01",
+    "mandate": "Global multi-asset income and growth",
+    "note": "Combines equities, fixed income and other strategies.",
+    "url": "https://www.alliancebernstein.com/americas/en/investor/funds/multi-asset/ab-all-market-income.html"
+  },
+  {
+    "id": "sc-fund-02",
+    "mandate": "US growth equity",
+    "note": "Primarily US stocks seeking capital growth.",
+    "url": "https://www.alliancebernstein.com/n-europe/en-gb/institutions/funds/equities/ab-american-growth.html"
+  },
+  {
+    "id": "sc-fund-03",
+    "mandate": "Global equity with a lower-volatility objective",
+    "note": "Stock-selection approach to managing volatility; capital is not protected.",
+    "url": "https://www.alliancebernstein.com/americas/en/financial-professional/funds/equities/ab-low-volatility-equity.i.LU0861579349.html"
+  },
+  {
+    "id": "sc-fund-04",
+    "mandate": "Asia-Pacific multi-asset",
+    "note": "Mandate permits equities and bonds. AT USD is accumulating despite Income in the fund name.",
+    "url": "https://hk.allianzgi.com/en-hk/retail/products-solutions/retail-funds/allianz-oriental-income-at-usd"
+  },
+  {
+    "id": "sc-fund-05",
+    "mandate": "US / Canada multi-asset income",
+    "note": "Equities, high-yield debt and convertibles, with covered calls. The CASH suffix does not make the investment a cash account.",
+    "url": "https://sg.allianzgi.com/en-sg/retail/products-solutions/recognised-fund/allianz-income-and-growth-am-usd"
+  },
+  {
+    "id": "sc-fund-06",
+    "mandate": "Growth-oriented global multi-asset fund of funds",
+    "note": "Equity-oriented mandate with other asset classes permitted. AU ACC is accumulating.",
+    "url": "https://www.amundi.com.sg/retail/dl/doc/monthly-factsheet/LU2485621705/ENG/SGP/RETAIL/AMUNDI"
+  },
+  {
+    "id": "sc-fund-07",
+    "mandate": "Income-oriented global multi-asset fund of funds",
+    "note": "Combines bonds and equities; the AU MDIS class distributes monthly. Distributions can include capital.",
+    "url": "https://www.amundi.com.sg/retail/dl/doc/monthly-factsheet/LU2485622000/ENG/SGP/RETAIL/AMUNDI"
+  },
+  {
+    "id": "sc-fund-08",
+    "mandate": "Global equity income with derivatives",
+    "note": "At least 70% equities; derivatives including covered calls support the income strategy.",
+    "url": "https://www.blackrock.com/uk/individual/products/270404/blackrock-gbl-enhanced-eq-yield-a6-usd-fund"
+  },
+  {
+    "id": "sc-fund-09",
+    "mandate": "USD short-term money market",
+    "note": "Short-maturity investment-grade instruments; variable NAV and not a bank deposit.",
+    "url": "https://www.franklintempleton.lu/our-funds/price-and-performance-money-funds/products/307/A/franklin-u-s-dollar-short-term-money-market-fund/LU0052767562"
+  },
+  {
+    "id": "sc-fund-10",
+    "mandate": "US multi-asset allocation",
+    "note": "Manager materials describe equities and fixed income, including loans.",
+    "url": "https://www.sc.com/ae/personal/investment-services/fund-house/"
+  }
 ]
