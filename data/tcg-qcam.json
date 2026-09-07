@@ -1,0 +1,41 @@
+{
+  "product": "TCG QCAM",
+  "currency": "USD",
+  "statement_date": "2026-08-31",
+  "net_capital_invested": 1149990.0,
+  "lifetime_profit": 174220.4,
+  "current_portfolio_value": 1324210.4,
+  "running_xirr_pct": 17.34,
+  "monthly_profit": 20732.8,
+  "monthly_return_pct": 1.67,
+  "high_watermark_month": "Jun 2026",
+  "monthly_history": [
+    {"month":"Sep 2025","profit_loss":5478.7,"running_xirr_pct":16.50,"sharpe":8.7,"cumulative_profit_loss":43589.2,"account_value":543579.2},
+    {"month":"Oct 2025","profit_loss":9918.9,"running_xirr_pct":17.50,"sharpe":8.8,"cumulative_profit_loss":53508.1,"account_value":553498.1},
+    {"month":"Nov 2025","profit_loss":5908.3,"running_xirr_pct":17.00,"sharpe":8.8,"cumulative_profit_loss":59416.4,"account_value":559406.4},
+    {"month":"Dec 2025","profit_loss":3751.0,"running_xirr_pct":16.10,"sharpe":7.7,"cumulative_profit_loss":63167.3,"account_value":563157.3},
+    {"month":"Jan 2026","profit_loss":12679.2,"running_xirr_pct":16.70,"sharpe":8.0,"cumulative_profit_loss":75846.5,"account_value":825836.5},
+    {"month":"Feb 2026","profit_loss":5727.0,"running_xirr_pct":15.90,"sharpe":7.3,"cumulative_profit_loss":81573.6,"account_value":831563.6},
+    {"month":"Mar 2026","profit_loss":16889.8,"running_xirr_pct":17.00,"sharpe":7.2,"cumulative_profit_loss":98463.4,"account_value":848453.4},
+    {"month":"Apr 2026","profit_loss":5293.8,"running_xirr_pct":15.86,"sharpe":6.4,"cumulative_profit_loss":103757.2,"account_value":1053747.2},
+    {"month":"May 2026","profit_loss":23227.9,"running_xirr_pct":17.20,"sharpe":6.3,"cumulative_profit_loss":126985.1,"account_value":1076975.1},
+    {"month":"Jun 2026","profit_loss":-2975.9,"running_xirr_pct":15.13,"sharpe":4.7,"cumulative_profit_loss":124009.1,"account_value":1073999.1},
+    {"month":"Jul 2026","profit_loss":29478.5,"running_xirr_pct":16.93,"sharpe":4.6,"cumulative_profit_loss":153487.6,"account_value":1103477.6},
+    {"month":"Aug 2026","profit_loss":20732.8,"running_xirr_pct":17.34,"sharpe":4.8,"cumulative_profit_loss":174220.4,"account_value":1324210.4}
+  ],
+  "allocation_current_pct": {"USA":77,"EUR":0,"HK":2,"Japan":0,"FX":9,"Cash":12},
+  "allocation_lifetime_pct": {"USA":57,"EUR":1,"HK":11,"Japan":4,"FX":14,"Cash":13},
+  "profit_attribution_current_pct": {"USA":122,"EUR":0,"HK":-30,"Japan":0,"FX":8},
+  "profit_attribution_lifetime_pct": {"USA":69,"EUR":2,"HK":-9,"Japan":12,"FX":16},
+  "sector_current_pct": {"Technology":38,"Indices":31,"Precious Metals":11,"Consumer Discretionary":9,"Healthcare":9,"Energy":2,"Materials":0,"Communication Services":0,"Consumer Staples":0,"Financials":0,"Industrials":0,"Real Estate":0,"Utilities":0},
+  "sector_lifetime_pct": {"Technology":25,"Indices":13,"Precious Metals":4,"Consumer Discretionary":13,"Healthcare":8,"Energy":3,"Materials":4,"Communication Services":3,"Consumer Staples":5,"Financials":4,"Industrials":11,"Real Estate":1,"Utilities":2},
+  "month_end_top_holdings": ["Western Digital Corporation","Sandisk Corporation","Healthcare Long/Inverse ETF","Semiconductor Long/Inverse ETF"],
+  "top_traded_equities": ["South Korea Index ETF","Memory Sector ETF","Intel Corporation","Gold Miners Long/Inverse ETF","Amazon.com, Inc.","Healthcare Long/Inverse ETF","S&P 500 Long/Inverse ETF","Sandisk Corporation","Russell 2000 Index ETF Long/Inverse","Moderna, Inc."],
+  "transactions": [
+    {"date":"2024-12-26","event":"Investment","amount":250000.0,"cumulative_amount":250000.0},
+    {"date":"2025-06-04","event":"Investment","amount":249990.0,"cumulative_amount":499990.0},
+    {"date":"2026-01-05","event":"Investment","amount":250000.0,"cumulative_amount":749990.0},
+    {"date":"2026-04-09","event":"Investment","amount":200000.0,"cumulative_amount":949990.0},
+    {"date":"2026-08-10","event":"Investment","amount":200000.0,"cumulative_amount":1149990.0}
+  ]
+}
