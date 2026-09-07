@@ -1,19 +1,2 @@
-export const summary={date:'2026-07-30',net:7725101.19,performanceEnd:7721187.37,start:7885036.30,deposits:137401.18,withdrawals:-843695.69,investmentChange:542445.58,returnPct:6.86};
-export const allocation=[
- {name:'Equities',value:9356227.51,pct:121.11,meaning:'Shares and the equity portions of investment funds.'},
- {name:'Private equity',value:1056891.24,pct:13.68,meaning:'Investments in companies outside public stock markets, including fund allocations.'},
- {name:'Bonds',value:951011.10,pct:12.31,meaning:'Debt securities and the bond portions of funds.'},
- {name:'Liquidity',value:614997.86,pct:7.96,meaning:'Cash balances with accrued interest included.'},
- {name:'Hedge funds',value:518340.28,pct:6.71,meaning:'Funds classified by the bank as hedge funds.'},
- {name:'Real estate participations',value:275900.69,pct:3.57,meaning:'Property-related investments and portions of funds.'},
- {name:'Commodities / metals',value:123506.04,pct:1.60,meaning:'Precious metals and commodity-related investments.'},
- {name:'Others',value:3723.08,pct:0.05,meaning:'Remaining amounts in the bank’s allocation.'},
- {name:'Short-term investments',value:-16155.07,pct:-0.21,meaning:'The bank’s net allocation to short-term investments, including fund components.'},
- {name:'Derivatives',value:-439498.47,pct:-5.69,meaning:'Net marked values attributed to derivatives. These values are not contract notional amounts.'},
- {name:'Credit / borrowing',value:-4719843.07,pct:-61.10,meaning:'Fixed advances owed to the bank, including accrued debit interest.'},
-];
-export const currencies=[{name:'USD',value:7983461.52,pct:103.34},{name:'CAD',value:-1204318.75,pct:-15.59},{name:'JPY',value:-577324,pct:-7.47},{name:'EUR',value:573937.27,pct:7.43},{name:'Various',value:949345.15,pct:12.29}];
-export const months=[{label:'Jan',end:8106774.72,change:208237.42,pct:2.64,cumulative:2.64},{label:'Feb',end:8326250,change:205948.28,pct:2.53,cumulative:5.24},{label:'Mar',end:7568382.31,change:-771187.69,pct:-9.25,cumulative:-4.50},{label:'Apr',end:7903785.78,change:822325.82,pct:10.97,cumulative:5.98},{label:'May',end:8300411.20,change:683145.58,pct:8.75,cumulative:15.25},{label:'Jun',end:8053026.23,change:-260827.97,pct:-3.14,cumulative:11.64},{label:'Jul 1–30',end:7721187.37,change:-345195.86,pct:-4.28,cumulative:6.86}];
-export const history=[{label:'2018 (3 Jan–31 Dec)',end:1171136.49,change:-128833.51,pct:-9.91},{label:'2019',end:2008589.13,change:237477.80,pct:17.49},{label:'2020',end:5001957.74,change:651262.84,pct:5.01},{label:'2021',end:5179030.08,change:325429.08,pct:6.62},{label:'2022',end:4681710.95,change:-3222799.03,pct:-42.47},{label:'2023',end:5371498.54,change:1607119.33,pct:37.58},{label:'2024',end:7436227.96,change:199521.46,pct:3.79},{label:'2025',end:7885036.30,change:734660.11,pct:10.21},{label:'2026 (1 Jan–30 Jul)',end:7721187.37,change:542445.58,pct:6.86}];
-export const components=[{name:'Price gains / losses, including transaction costs',value:361737.65},{name:'Coupons / credit interest / dividends / withholding taxes',value:244337.89},{name:'Debit interest',value:-52108.05},{name:'Expenses and charges',value:-13839.81},{name:'Change in accrued interest',value:2317.90}];
-export const sourceMap=[['Allocation','1','Assets and currency allocation; includes fund look-through where available.'],['Performance','2–4','2026 value bridge, monthly returns and historical annual results.'],['Holdings and borrowing','5–53','Detailed instruments, cash balances, fixed advances and contracts.'],['Further information','53–59','Reference exchange rates, duration and estimated future interest.'],['Sustainability','60','The bank’s sustainability analysis and coverage notes.'],['Transactions','61–297','Dated account activity; one event may have several entries.'],['Glossary and methodology','298–301','Bank terminology, valuation qualifications and sustainability method.']];
+import portfolio from '@/data/portfolio.json';
+export const { summary, allocation, currencies, months, history, components, sourceMap, coverage } = portfolio;

@@ -1,9 +1,9 @@
 {
-  "statement_date": "2026-07-30",
+  "statement_date": "2026-08-23",
   "amount_basis": "Amounts are reported in each holding currency, not USD.",
   "holdings": [
     {
-      "id": "holding-177",
+      "id": "holding-168",
       "name": "Crown Direct - Andromeda S.C.SP.",
       "currency": "CHF",
       "printed_page": 33,
@@ -21,13 +21,13 @@
       }
     },
     {
-      "id": "holding-178",
+      "id": "holding-169",
       "name": "LGT PB AIF SICAV - Lightrock Climate Impact Feeder Fund",
       "currency": "EUR",
       "printed_page": 33,
       "total_initial_commitment_in_currency": 300000.0,
-      "capital_called_in_currency": 179739.0,
-      "capital_called_pct": 59.91,
+      "capital_called_in_currency": 207519.0,
+      "capital_called_pct": 69.17,
       "distributions_in_currency": 0.0,
       "distribution_kpi_date": "2026-03-31",
       "source_status": {
@@ -39,10 +39,10 @@
       }
     },
     {
-      "id": "holding-179",
+      "id": "holding-170",
       "name": "Lightrock Evergreen Fund SICAV",
       "currency": "USD",
-      "printed_page": 34,
+      "printed_page": 33,
       "total_initial_commitment_in_currency": null,
       "capital_called_in_currency": null,
       "capital_called_pct": null,
@@ -58,10 +58,10 @@
     }
   ],
   "notes": [
-    "Values are transcribed from the private equity table on printed pages 33-34.",
+    "Values are transcribed from the private equity table on printed page 33.",
     "Null fields retain whether the source says n.a. or leaves the cell blank through source_status. Blank and n.a. are not zero.",
     "distribution_kpi_date is the date printed in the distribution column; it is not inferred to be the date for commitment or capital-called amounts.",
     "No remaining/unfunded commitment has been calculated.",
-    "All three source rows were checked visually against the PDF."
+    "All three source rows were checked against the PDF."
   ]
 }

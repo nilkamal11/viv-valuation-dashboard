@@ -1,0 +1,1572 @@
+{
+  "statement_date": "2026-08-23",
+  "source_printed_pages": [
+    59,
+    63
+  ],
+  "label": "Expected interest payments in the next 12 months (estimate)",
+  "scheduled_payment_count": 144,
+  "instrument_designation_count": 18,
+  "instrument_isin_count": 18,
+  "date_range": {
+    "from": "2026-09-10",
+    "to": "2027-08-13"
+  },
+  "statement_total_usd": 253275.89,
+  "printed_total_usd": 253275.89,
+  "reconciliation_difference_usd": 0,
+  "by_currency": [
+    {
+      "currency": "GBP",
+      "scheduled_payments": 4,
+      "native_amount": 16750.0
+    },
+    {
+      "currency": "HKD",
+      "scheduled_payments": 2,
+      "native_amount": 16666.67
+    },
+    {
+      "currency": "JPY",
+      "scheduled_payments": 11,
+      "native_amount": 3869648.0
+    },
+    {
+      "currency": "USD",
+      "scheduled_payments": 127,
+      "native_amount": 203987.59
+    }
+  ],
+  "by_month": [
+    {
+      "month": "2026-09",
+      "scheduled_payments": 17,
+      "statement_amount_usd": 30973.73
+    },
+    {
+      "month": "2026-10",
+      "scheduled_payments": 17,
+      "statement_amount_usd": 30363.42
+    },
+    {
+      "month": "2026-11",
+      "scheduled_payments": 15,
+      "statement_amount_usd": 23909.01
+    },
+    {
+      "month": "2026-12",
+      "scheduled_payments": 14,
+      "statement_amount_usd": 26107.57
+    },
+    {
+      "month": "2027-01",
+      "scheduled_payments": 14,
+      "statement_amount_usd": 25865.24
+    },
+    {
+      "month": "2027-02",
+      "scheduled_payments": 13,
+      "statement_amount_usd": 17767.34
+    },
+    {
+      "month": "2027-03",
+      "scheduled_payments": 15,
+      "statement_amount_usd": 28637.75
+    },
+    {
+      "month": "2027-04",
+      "scheduled_payments": 12,
+      "statement_amount_usd": 19535.9
+    },
+    {
+      "month": "2027-05",
+      "scheduled_payments": 10,
+      "statement_amount_usd": 17031.0
+    },
+    {
+      "month": "2027-06",
+      "scheduled_payments": 9,
+      "statement_amount_usd": 20324.82
+    },
+    {
+      "month": "2027-07",
+      "scheduled_payments": 6,
+      "statement_amount_usd": 9987.39
+    },
+    {
+      "month": "2027-08",
+      "scheduled_payments": 2,
+      "statement_amount_usd": 2772.72
+    }
+  ],
+  "note": "These are the statement estimated future interest payments as of 23 August 2026, not cash already received, guaranteed income, portfolio return or an assurance of principal repayment. The USD totals use the printed equivalents; native-currency totals remain separate. No detailed transaction history is included in this replacement statement.",
+  "page_checks": [
+    {
+      "printed_page": 59,
+      "coordinate_rows": 32,
+      "text_rows": 32
+    },
+    {
+      "printed_page": 60,
+      "coordinate_rows": 32,
+      "text_rows": 32
+    },
+    {
+      "printed_page": 61,
+      "coordinate_rows": 32,
+      "text_rows": 32
+    },
+    {
+      "printed_page": 62,
+      "coordinate_rows": 32,
+      "text_rows": 32
+    },
+    {
+      "printed_page": 63,
+      "coordinate_rows": 16,
+      "text_rows": 16
+    }
+  ],
+  "rows": [
+    {
+      "date": "2026-09-10",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 725.0,
+      "statement_amount_usd": 725.0,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-10",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 805.56,
+      "statement_amount_usd": 805.56,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-10",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-10",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-11",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1208.33,
+      "statement_amount_usd": 1208.33,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-11",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1087.5,
+      "statement_amount_usd": 1087.5,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-15",
+      "instrument": "FLR Barclays WFM",
+      "isin": "XS3069217621",
+      "currency": "GBP",
+      "amount": 4187.5,
+      "statement_amount_usd": 5704.92,
+      "interest_period": "Quarterly",
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-15",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 984.11,
+      "statement_amount_usd": 984.11,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-16",
+      "instrument": "11 UBS 26 FCN",
+      "isin": "XS3214322805",
+      "currency": "USD",
+      "amount": 977.78,
+      "statement_amount_usd": 977.78,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-18",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 794.35,
+      "statement_amount_usd": 794.35,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-18",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3374.19,
+      "statement_amount_usd": 3374.19,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-22",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1777.78,
+      "statement_amount_usd": 1777.78,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-23",
+      "instrument": "15 Vont 26 FCN",
+      "isin": "CH1498643522",
+      "currency": "USD",
+      "amount": 2416.67,
+      "statement_amount_usd": 2416.67,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-23",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1147.11,
+      "statement_amount_usd": 1147.11,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-24",
+      "instrument": "10 Citi 26 FCN",
+      "isin": "XS3133348139",
+      "currency": "HKD",
+      "amount": 7777.78,
+      "statement_amount_usd": 992.05,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-28",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2752.11,
+      "statement_amount_usd": 2752.11,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-09-30",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 396289.0,
+      "statement_amount_usd": 2492.93,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-09",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 725.0,
+      "statement_amount_usd": 725.0,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-09",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 805.56,
+      "statement_amount_usd": 805.56,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-13",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2200.0,
+      "statement_amount_usd": 2200.0,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-13",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 2200.0,
+      "statement_amount_usd": 2200.0,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-14",
+      "instrument": "11 UBS 26 FCN",
+      "isin": "XS3214322805",
+      "currency": "USD",
+      "amount": 855.56,
+      "statement_amount_usd": 855.56,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-14",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1375.0,
+      "statement_amount_usd": 1375.0,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-14",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1237.5,
+      "statement_amount_usd": 1237.5,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-14",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-20",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 873.79,
+      "statement_amount_usd": 873.79,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-20",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3711.61,
+      "statement_amount_usd": 3711.61,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-21",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1611.11,
+      "statement_amount_usd": 1611.11,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-22",
+      "instrument": "15 Vont 26 FCN",
+      "isin": "CH1498643522",
+      "currency": "USD",
+      "amount": 2416.67,
+      "statement_amount_usd": 2416.67,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-22",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1147.11,
+      "statement_amount_usd": 1147.11,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-26",
+      "instrument": "10 Citi 26 FCN",
+      "isin": "XS3133348139",
+      "currency": "HKD",
+      "amount": 8888.89,
+      "statement_amount_usd": 1133.78,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-28",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 326356.0,
+      "statement_amount_usd": 2053.01,
+      "interest_period": null,
+      "printed_page": 59
+    },
+    {
+      "date": "2026-10-28",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2428.33,
+      "statement_amount_usd": 2428.33,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-10-30",
+      "instrument": "Var HSBC 27 ACN",
+      "isin": "XS3097410727",
+      "currency": "USD",
+      "amount": 4750.0,
+      "statement_amount_usd": 4750.0,
+      "interest_period": "Quarterly",
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 825.0,
+      "statement_amount_usd": 825.0,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 916.67,
+      "statement_amount_usd": 916.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1933.33,
+      "statement_amount_usd": 1933.33,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 1933.33,
+      "statement_amount_usd": 1933.33,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1166.67,
+      "statement_amount_usd": 1166.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-12",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1050.0,
+      "statement_amount_usd": 1050.0,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-13",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-16",
+      "instrument": "11 UBS 26 FCN",
+      "isin": "XS3214322805",
+      "currency": "USD",
+      "amount": 977.78,
+      "statement_amount_usd": 977.78,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-18",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 767.88,
+      "statement_amount_usd": 767.88,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-18",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3261.72,
+      "statement_amount_usd": 3261.72,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-20",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1611.11,
+      "statement_amount_usd": 1611.11,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-24",
+      "instrument": "15 Vont 26 FCN",
+      "isin": "CH1498643522",
+      "currency": "USD",
+      "amount": 2666.67,
+      "statement_amount_usd": 2666.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-24",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1265.78,
+      "statement_amount_usd": 1265.78,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-27",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2347.39,
+      "statement_amount_usd": 2347.39,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-11-30",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 372978.0,
+      "statement_amount_usd": 2346.29,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-09",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 675.0,
+      "statement_amount_usd": 675.0,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-09",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 750.0,
+      "statement_amount_usd": 750.0,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-10",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-10",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-11",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1208.33,
+      "statement_amount_usd": 1208.33,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-11",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1087.5,
+      "statement_amount_usd": 1087.5,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-15",
+      "instrument": "FLR Barclays WFM",
+      "isin": "XS3069217621",
+      "currency": "GBP",
+      "amount": 4187.5,
+      "statement_amount_usd": 5704.92,
+      "interest_period": "Quarterly",
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-15",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 926.22,
+      "statement_amount_usd": 926.22,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-18",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 820.83,
+      "statement_amount_usd": 820.83,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-18",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3486.67,
+      "statement_amount_usd": 3486.67,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-22",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1777.78,
+      "statement_amount_usd": 1777.78,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-23",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1147.11,
+      "statement_amount_usd": 1147.11,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-29",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2590.22,
+      "statement_amount_usd": 2590.22,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2026-12-30",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 349667.0,
+      "statement_amount_usd": 2199.65,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2027-01-11",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 800.0,
+      "statement_amount_usd": 800.0,
+      "interest_period": null,
+      "printed_page": 60
+    },
+    {
+      "date": "2027-01-11",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 888.89,
+      "statement_amount_usd": 888.89,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-12",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2133.33,
+      "statement_amount_usd": 2133.33,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-12",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 2133.33,
+      "statement_amount_usd": 2133.33,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-13",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1333.33,
+      "statement_amount_usd": 1333.33,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-13",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1200.0,
+      "statement_amount_usd": 1200.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-13",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 810.44,
+      "statement_amount_usd": 810.44,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-21",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1611.11,
+      "statement_amount_usd": 1611.11,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-21",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 902.92,
+      "statement_amount_usd": 902.92,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-21",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3835.33,
+      "statement_amount_usd": 3835.33,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-22",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1147.11,
+      "statement_amount_usd": 1147.11,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-27",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2266.44,
+      "statement_amount_usd": 2266.44,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-28",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 326356.0,
+      "statement_amount_usd": 2053.01,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-01-30",
+      "instrument": "Var HSBC 27 ACN",
+      "isin": "XS3097410727",
+      "currency": "USD",
+      "amount": 4750.0,
+      "statement_amount_usd": 4750.0,
+      "interest_period": "Quarterly",
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-01",
+      "instrument": "Var HSBC 27 ACN",
+      "isin": "XS3097410727",
+      "currency": "USD",
+      "amount": 105.56,
+      "statement_amount_usd": 105.56,
+      "interest_period": "Quarterly",
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-10",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 725.0,
+      "statement_amount_usd": 725.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-10",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 805.56,
+      "statement_amount_usd": 805.56,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-10",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-10",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-11",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1166.67,
+      "statement_amount_usd": 1166.67,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-11",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1050.0,
+      "statement_amount_usd": 1050.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-16",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 955.17,
+      "statement_amount_usd": 955.17,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-18",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 741.4,
+      "statement_amount_usd": 741.4,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-18",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3149.25,
+      "statement_amount_usd": 3149.25,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-22",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1722.22,
+      "statement_amount_usd": 1722.22,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-24",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1265.78,
+      "statement_amount_usd": 1265.78,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-02-26",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2347.39,
+      "statement_amount_usd": 2347.39,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-02",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 396289.0,
+      "statement_amount_usd": 2492.93,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-10",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 750.0,
+      "statement_amount_usd": 750.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-10",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 833.33,
+      "statement_amount_usd": 833.33,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-10",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2000.0,
+      "statement_amount_usd": 2000.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-10",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 2000.0,
+      "statement_amount_usd": 2000.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-11",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1250.0,
+      "statement_amount_usd": 1250.0,
+      "interest_period": null,
+      "printed_page": 61
+    },
+    {
+      "date": "2027-03-11",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1125.0,
+      "statement_amount_usd": 1125.0,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-15",
+      "instrument": "FLR Barclays WFM",
+      "isin": "XS3069217621",
+      "currency": "GBP",
+      "amount": 4187.5,
+      "statement_amount_usd": 5704.92,
+      "interest_period": "Quarterly",
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-15",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-18",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 820.83,
+      "statement_amount_usd": 820.83,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-18",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3486.67,
+      "statement_amount_usd": 3486.67,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-22",
+      "instrument": "10 GS Bk 27 FCN",
+      "isin": "XS3292976753",
+      "currency": "USD",
+      "amount": 1666.67,
+      "statement_amount_usd": 1666.67,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-24",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1186.67,
+      "statement_amount_usd": 1186.67,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-26",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2428.33,
+      "statement_amount_usd": 2428.33,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-03-30",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 326356.0,
+      "statement_amount_usd": 2053.01,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-09",
+      "instrument": "9 MS 27 FCN",
+      "isin": "XS3302729028",
+      "currency": "USD",
+      "amount": 725.0,
+      "statement_amount_usd": 725.0,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-09",
+      "instrument": "10 MS 27 FCN",
+      "isin": "XS3302728640",
+      "currency": "USD",
+      "amount": 805.56,
+      "statement_amount_usd": 805.56,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-12",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2133.33,
+      "statement_amount_usd": 2133.33,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-12",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 2133.33,
+      "statement_amount_usd": 2133.33,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-13",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1333.33,
+      "statement_amount_usd": 1333.33,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-13",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1200.0,
+      "statement_amount_usd": 1200.0,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-14",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-20",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 879.46,
+      "statement_amount_usd": 879.46,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-20",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3735.71,
+      "statement_amount_usd": 3735.71,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-22",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1107.56,
+      "statement_amount_usd": 1107.56,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-28",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 326356.0,
+      "statement_amount_usd": 2053.01,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-04-28",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2590.22,
+      "statement_amount_usd": 2590.22,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-12",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2000.0,
+      "statement_amount_usd": 2000.0,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-12",
+      "instrument": "12 Barc 27 FCN",
+      "isin": "XS3344932960",
+      "currency": "USD",
+      "amount": 2000.0,
+      "statement_amount_usd": 2000.0,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-12",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1208.33,
+      "statement_amount_usd": 1208.33,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-12",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1087.5,
+      "statement_amount_usd": 1087.5,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-13",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-19",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 793.47,
+      "statement_amount_usd": 793.47,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-19",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3370.44,
+      "statement_amount_usd": 3370.44,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-24",
+      "instrument": "14.24 GS Bk 27 FCN",
+      "isin": "XS3330891576",
+      "currency": "USD",
+      "amount": 1265.78,
+      "statement_amount_usd": 1265.78,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-26",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2266.44,
+      "statement_amount_usd": 2266.44,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-05-28",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 349667.0,
+      "statement_amount_usd": 2199.65,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-06-10",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1866.67,
+      "statement_amount_usd": 1866.67,
+      "interest_period": null,
+      "printed_page": 62
+    },
+    {
+      "date": "2027-06-11",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1208.33,
+      "statement_amount_usd": 1208.33,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-11",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1087.5,
+      "statement_amount_usd": 1087.5,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-15",
+      "instrument": "FLR Barclays WFM",
+      "isin": "XS3069217621",
+      "currency": "GBP",
+      "amount": 4187.5,
+      "statement_amount_usd": 5704.92,
+      "interest_period": "Quarterly",
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-15",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 926.22,
+      "statement_amount_usd": 926.22,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-21",
+      "instrument": "9.85 HSBC 27 ACN",
+      "isin": "XS3376562933",
+      "currency": "USD",
+      "amount": 875.56,
+      "statement_amount_usd": 875.56,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-21",
+      "instrument": "20.92 Barc 27 ACN",
+      "isin": "XS3385276160",
+      "currency": "USD",
+      "amount": 3719.11,
+      "statement_amount_usd": 3719.11,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-28",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2590.22,
+      "statement_amount_usd": 2590.22,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-06-30",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 372978.0,
+      "statement_amount_usd": 2346.29,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-12",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 2133.33,
+      "statement_amount_usd": 2133.33,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-13",
+      "instrument": "10 SG 27 FCN",
+      "isin": "XS3406703614",
+      "currency": "USD",
+      "amount": 1333.33,
+      "statement_amount_usd": 1333.33,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-13",
+      "instrument": "9 Vont 27 FCN",
+      "isin": "CH1576158195",
+      "currency": "USD",
+      "amount": 1200.0,
+      "statement_amount_usd": 1200.0,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-14",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-28",
+      "instrument": "20.98 JPM 27 FCN",
+      "isin": "XS3406974215",
+      "currency": "JPY",
+      "amount": 326356.0,
+      "statement_amount_usd": 2053.01,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-07-28",
+      "instrument": "29.14 GS Bk 27 FCN",
+      "isin": "XS3149454251",
+      "currency": "USD",
+      "amount": 2428.33,
+      "statement_amount_usd": 2428.33,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-08-11",
+      "instrument": "12 CA CIB 27 FCN",
+      "isin": "XS3336011252",
+      "currency": "USD",
+      "amount": 1933.33,
+      "statement_amount_usd": 1933.33,
+      "interest_period": null,
+      "printed_page": 63
+    },
+    {
+      "date": "2027-08-13",
+      "instrument": "10.42 DBS Bk 27 FCN",
+      "isin": "XS3452185484",
+      "currency": "USD",
+      "amount": 839.39,
+      "statement_amount_usd": 839.39,
+      "interest_period": null,
+      "printed_page": 63
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "statement_date": "2026-08-23",
+  "holdings": [
+    {
+      "id": "holding-032",
+      "name": "Barclays PLC 8.375 % 2025-without final Maturity Floating rate bond Eurobond (Coco Bond)",
+      "currency": "GBP",
+      "printed_page": 9,
+      "quantity": 200000.0,
+      "quantity_basis": "Nominal value",
+      "value_usd": 290092.17,
+      "accrued_interest_usd": 4278.7,
+      "total_value_usd": 294370.87,
+      "statement_weight_pct": 3.55,
+      "price_date": "2026-08-21",
+      "isin": "XS3069217621",
+      "coupon_rate_pct": 8.375,
+      "purchase_price_pct": 101.25,
+      "purchase_price_date": "2025-05-16",
+      "current_price_pct": 106.47,
+      "price_basis": "Percent of nominal value",
+      "modified_duration": 4.08,
+      "yield_pct": 6.74,
+      "yield_label": "Ytm/ytc",
+      "sp_rating": "BB+",
+      "moodys_rating": "Ba1",
+      "maturity_date": null,
+      "final_maturity_status": "n.a.",
+      "source_bond_type": "2025-without final maturity floating-rate Eurobond (Coco Bond)",
+      "purchase_fx_quote": 1.3278,
+      "current_fx_quote": 1.3624
+    }
+  ],
+  "notes": [
+    "The source describes this bond as without final maturity; it provides no final maturity date.",
+    "Yield is retained under the source Ytm/ytc label without inferring which convention the bank used.",
+    "The quoted prices are percentages of nominal value, not currency prices per unit.",
+    "Ratings, prices, coupon label and duration are transcribed from printed page 9; they are not a live update."
+  ]
+}

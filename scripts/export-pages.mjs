@@ -17,7 +17,7 @@ try{
  const response=await fetch(url);
  assert.equal(response.status,200,'Repository route must render successfully');
  const html=await response.text();
- assert.ok(html.includes('Net portfolio value')&&html.includes('7,725,101')&&html.includes('Reading guide'),'Refuse to publish a missing or error page');
+ assert.ok(html.includes('Net portfolio value')&&html.includes('8,303,406')&&html.includes('Reading guide'),'Refuse to publish a missing or error page');
  const rsc=await fetch(url,{headers:{RSC:'1',Accept:'text/x-component'}});
  assert.equal(rsc.status,200);assert.ok(rsc.headers.get('content-type')?.includes('text/x-component'));
  fs.mkdirSync(out,{recursive:true});

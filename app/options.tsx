@@ -63,15 +63,15 @@ export default function OptionsSection() {
   const setPrice = (value: string) => setPrices(p => ({ ...p, [selected.id]: value }));
   return <div className="stack">
     <section className="panel">
-      <p className="eyebrow">OPTIONS · PRINTED PP. 36–50</p><h2>110 positions, all sold short</h2>
+      <p className="eyebrow">OPTIONS · PRINTED PP. 35–55</p><h2>{options.length} positions, all sold short</h2>
       <p className="subtitle">These are obligations written to option buyers. A put can require buying the underlying shares; a call can require delivering them.</p>
       <div className="option-metrics">
-        <article><span>Option value in the statement</span><strong>{money(options.reduce((s, o) => s + o.statement_mark_usd, 0))}</strong><p>A negative marked value · 30 July 2026</p></article>
+        <article><span>Option value in the statement</span><strong>{money(options.reduce((s, o) => s + o.statement_mark_usd, 0))}</strong><p>A negative marked value · 23 August 2026</p></article>
         <article><span>Short puts</span><strong>{puts.length} positions</strong><p>{number(puts.reduce((s, o) => s - o.signed_contracts, 0))} contracts · potential share purchases</p></article>
-        <article><span>Short calls</span><strong>{calls.length} positions</strong><p>{number(calls.reduce((s, o) => s - o.signed_contracts, 0))} contracts · all marked “Covered” by the bank</p></article>
+        <article><span>Short calls</span><strong>{calls.length} positions</strong><p>{number(calls.reduce((s, o) => s - o.signed_contracts, 0))} contracts · {calls.filter(o=>o.coverage_remark).length} positions marked “Covered” by the bank</p></article>
       </div>
-      <div className="callout"><h3>“Value now” versus value at expiration</h3><p>The latest value available here is the bank’s <strong>30 July 2026</strong> mark. Live quotes and later account activity are not connected. Dates that have since passed remain historical positions; their actual outcomes are unknown. At expiration, value depends on the underlying price. Select any contract below to calculate that scenario.</p></div>
-      <p className="note below">This section covers the 110 entries under “Options (Derivatives).” Warrants and structured products remain in Holdings and are not modeled as ordinary options.</p>
+      <div className="callout risk-callout"><h3>34 listed options had already reached expiry</h3><p>These rows expire on or before 23 August. Settlement, resulting shares and cash movements are unconfirmed. The remaining 113 rows have later expirations relative to this snapshot. Neither group establishes today’s live positions. <a href="#risk">See the separate risk totals →</a></p></div><div className="callout below"><h3>“Value now” versus value at expiration</h3><p>The latest value available here is the bank’s <strong>23 August 2026</strong> mark. Live quotes and later account activity are not connected. Dates that have since passed remain historical positions; their actual outcomes are unknown. At expiration, value depends on the underlying price. Select any contract below to calculate that scenario.</p></div>
+      <p className="note below">This section covers the {options.length} entries under “Options (Derivatives).” Warrants and structured products remain in Holdings and are not modeled as ordinary options.</p>
     </section>
 
     <section className="panel option-detail" aria-labelledby="option-detail-heading">
@@ -82,7 +82,7 @@ export default function OptionsSection() {
           <span className="option-tag">Short {selected.type.toLowerCase()}{selected.adjustment_source ? ' · adjusted contract' : ''}</span>
           <dl className="bond-facts">
             <div><dt>Underlying symbol</dt><dd>{selected.deliverable_symbol}{selected.adjustment_source ? ` (contract ${selected.underlying})` : ''}</dd></div>
-            <div><dt>Expiration</dt><dd>{date(selected.expiration)}</dd></div>
+            <div><dt>Expiration</dt><dd>{date(selected.expiration)}</dd></div><div><dt>Status at statement date</dt><dd>{selected.expiration<=optionsData.statement_date?'Expiry reached; settlement unconfirmed':'Later expiry; subsequent status unknown'}</dd></div>
             <div><dt>Contracts sold</dt><dd>{number(terms.contracts)}</dd></div>
             <div><dt>Strike as quoted</dt><dd>{money(selected.strike, selected.currency)}</dd></div>
             <div><dt>Strike / premium multiplier</dt><dd>{number(selected.strike_multiplier)}</dd></div>
@@ -102,7 +102,7 @@ export default function OptionsSection() {
           <div className="scenario-result" aria-live="polite">
             <span>Option liability at expiration · all {number(terms.contracts)} contracts</span>
             <strong>{scenario ? money(scenario.intrinsic, selected.currency) : 'Depends on the share price'}</strong>
-            {scenario ? <><p>Signed option value: <b>{money(scenario.signedValue, selected.currency)}</b>{selected.currency !== 'USD' ? ` ≈ ${money(scenario.signedValueUsd)} using July FX` : ''}.</p><p>{scenario.inTheMoney ? 'This scenario is in the money: the option has intrinsic value.' : 'This scenario has zero intrinsic value. That alone does not guarantee no assignment.'}</p></> : <p>Enter a price or choose an illustration above to see the result.</p>}
+            {scenario ? <><p>Signed option value: <b>{money(scenario.signedValue, selected.currency)}</b>{selected.currency !== 'USD' ? ` ≈ ${money(scenario.signedValueUsd)} using statement FX` : ''}.</p><p>{scenario.inTheMoney ? 'This scenario is in the money: the option has intrinsic value.' : 'This scenario has zero intrinsic value. That alone does not guarantee no assignment.'}</p></> : <p>Enter a price or choose an illustration above to see the result.</p>}
           </div>
           <LiabilityChart option={selected} price={price} />
           <p className="note">The amount is the option’s intrinsic obligation, not the full cash or share delivery below. It excludes original premium, fees, taxes and changes in FX, so it is not total trade profit or loss.</p>
@@ -128,9 +128,9 @@ export default function OptionsSection() {
         <Button variant="outline" onClick={() => { setQuery(''); setType('All'); setExpiry('All'); setCurrency('All'); setPage(0); }}>Reset filters</Button>
       </div>
       <div className="result-summary"><b>{filtered.length} matching positions</b><span>Signed statement value: {money(filtered.reduce((s, o) => s + o.statement_mark_usd, 0))}</span></div>
-      <Table><TableHeader><TableRow><TableHead>Option / expiration</TableHead><TableHead>Type / size</TableHead><TableHead className="num">Strike</TableHead><TableHead className="num">Statement value<br />30 Jul 2026 · USD</TableHead><TableHead>Value at expiration</TableHead><TableHead>If fully assigned</TableHead><TableHead><span className="sr-only">Details</span></TableHead></TableRow></TableHeader><TableBody>
+      <Table><TableHeader><TableRow><TableHead>Option / expiration</TableHead><TableHead>Type / size</TableHead><TableHead className="num">Strike</TableHead><TableHead className="num">Statement value<br />23 Aug 2026 · USD</TableHead><TableHead>Value at expiration</TableHead><TableHead>If fully assigned</TableHead><TableHead><span className="sr-only">Details</span></TableHead></TableRow></TableHeader><TableBody>
         {filtered.slice(page * pageSize, (page + 1) * pageSize).map(o => { const t = optionTerms(o); const p = parseScenarioPrice(prices[o.id] ?? ''); const s = p === null ? null : expirationScenario(o, p); return <TableRow key={o.id} className={o.id === selectedId ? 'option-selected' : ''}>
-          <TableCell className="option-name"><strong>{o.underlying}{o.adjustment_source ? ' · adjusted' : ''}</strong><span>{date(o.expiration)}</span><span>{o.market_label} · p. {o.printed_page}</span></TableCell>
+          <TableCell className="option-name"><strong>{o.underlying}{o.adjustment_source ? ' · adjusted' : ''}</strong><span>{date(o.expiration)}</span>{o.expiration<=optionsData.statement_date&&<span className="negative-text">Expiry reached · settlement unconfirmed</span>}<span>{o.market_label} · p. {o.printed_page}</span></TableCell>
           <TableCell className="wrap">Short {o.type.toLowerCase()}<span className="option-sub">{number(t.contracts)} × {number(o.shares_per_contract)} shares</span>{o.cash_per_contract > 0 && <span className="option-sub">+ cash adjustment</span>}{o.coverage_remark && <span className="option-sub">Marked covered</span>}</TableCell>
           <TableCell className="num">{money(o.strike, o.currency)}</TableCell><TableCell className="num negative-text">{money(o.statement_mark_usd)}</TableCell>
           <TableCell className="wrap option-table-detail">{s ? <><strong>{money(s.signedValue, o.currency)}</strong><span className="option-sub">At assumed share price {money(p!, o.currency)}</span></> : <><strong>Price-dependent</strong><span className="option-sub">Zero intrinsic at {o.type === 'Put' ? 'or above' : 'or below'} {money(t.threshold, o.currency)}</span></>}</TableCell>
@@ -143,16 +143,17 @@ export default function OptionsSection() {
     </section>
 
     <div className="option-detail-grid">
-      <section className="panel"><p className="eyebrow">PUT ASSIGNMENT · GROSS CASH BY CURRENCY</p><h2>If every short put were assigned</h2><p className="subtitle">Full strike payments for the statement positions, across their different expiration dates. Calls are excluded from these purchase obligations.</p>
+      <section className="panel"><p className="eyebrow">PUT ASSIGNMENT · GROSS CASH BY CURRENCY</p><h2>All listed puts: historical strike terms</h2><p className="subtitle">Full strike payments for all 135 listed puts, including 31 whose expiry had already been reached. Those 31 are not confirmed future obligations; their settlements are unknown. See Risk analysis for the separate 104 later-expiry puts. Calls are excluded.</p>
         <Table><TableHeader><TableRow><TableHead>Currency</TableHead><TableHead className="num">Put positions</TableHead><TableHead className="num">Gross strike payments</TableHead></TableRow></TableHeader><TableBody>{currencyList.map(c => { const rows = puts.filter(o => o.currency === c); return <TableRow key={c}><TableCell>{c}</TableCell><TableCell className="num">{rows.length}</TableCell><TableCell className="num">{money(rows.reduce((s, o) => s + optionTerms(o).grossStrikeCash, 0), c)}</TableCell></TableRow>; })}</TableBody></Table>
-        <p className="note below">These are separate currencies, not one combined cash bill. They do not net against cash holdings, collateral, stock values or premiums. The USD amount includes the FUBO1 gross payment; its USD 57.20 cash deliverable would be received separately. This is not a maximum portfolio loss or a simultaneous funding forecast.</p>
+        <p className="note below">These are separate currencies, not one combined cash bill. They do not net against cash holdings, collateral, stock values or premiums. The USD amount includes the FUBO1 gross payment; its {money(puts.reduce((s,o)=>s+optionTerms(o).deliverableCash,0))} cash deliverable would be received separately. This is not a maximum portfolio loss or a simultaneous funding forecast.</p>
       </section>
       <section className="panel"><p className="eyebrow">DATES IN THE STATEMENT</p><h2>Expiration schedule</h2><Table><TableHeader><TableRow><TableHead>Expiration</TableHead><TableHead className="num">Puts</TableHead><TableHead className="num">Calls</TableHead><TableHead className="num">Contracts</TableHead></TableRow></TableHeader><TableBody>{expiryList.map(e => { const rows = options.filter(o => o.expiration === e); return <TableRow key={e}><TableCell>{date(e)}</TableCell><TableCell className="num">{rows.filter(o => o.type === 'Put').length}</TableCell><TableCell className="num">{rows.filter(o => o.type === 'Call').length}</TableCell><TableCell className="num">{number(rows.reduce((s, o) => s - o.signed_contracts, 0))}</TableCell></TableRow>; })}</TableBody></Table><p className="note below">Puts and calls count positions; contracts count their units. These are original expiry dates, not evidence the positions remained open until then.</p></section>
     </div>
     <section className="panel"><p className="eyebrow">HOW THE CALCULATIONS WORK</p><h2>Value, delivery and assignment are different</h2><div className="guidegrid">
       <div><h3>Expiration value</h3><p>Compare the strike payment with the value of the deliverable. A put has intrinsic value when the deliverable is worth less; a call when it is worth more. Multiply by the contract count and show a negative value for a short position. <a href="https://www.optionseducation.org/optionsoverview/options-pricing" target="_blank" rel="noreferrer">OIC pricing ↗</a></p></div>
       <div><h3>Assignment timing</h3><p>An American-style option can be exercised before expiration. In-the-money status does not guarantee assignment, and zero intrinsic value does not rule it out. The statement does not specify each series’ exercise style. <a href="https://www.optionseducation.org/optionsoverview/exercising-options" target="_blank" rel="noreferrer">OIC exercise and assignment ↗</a></p></div>
-      <div><h3>Contract sizes and FX</h3><p>Sizes come from the source descriptions and reconcile to the option marks. <a href="https://www.eurex.com/ex-en/markets/equ/equ-opt/options/Givaudan-952004" target="_blank" rel="noreferrer">Eurex GIVN ↗</a> uses 10 shares; <a href="https://www.hkex.com.hk/Products/Listed-Derivatives/Single-Stock/Stock-Options?sc_lang=en" target="_blank" rel="noreferrer">HKEX ↗</a> sizes vary. FUBO1 uses its linked OCC adjustment. USD scenario equivalents hold the bank’s p. 53 exchange rates fixed.</p></div>
+      <div><h3>Contract sizes and FX</h3><p>Sizes come from the source descriptions and reconcile to the option marks. <a href="https://www.eurex.com/ex-en/markets/equ/equ-opt/options/Givaudan-952004" target="_blank" rel="noreferrer">Eurex GIVN ↗</a> uses 10 shares; <a href="https://www.hkex.com.hk/Products/Listed-Derivatives/Single-Stock/Stock-Options?sc_lang=en" target="_blank" rel="noreferrer">HKEX ↗</a> sizes vary. FUBO1 uses its linked OCC adjustment. USD scenario equivalents hold the bank’s pp. 57–58 exchange rates fixed.</p></div>
     </div></section>
   </div>;
 }
+

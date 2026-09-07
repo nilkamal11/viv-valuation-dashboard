@@ -1,46 +1,49 @@
-# VIV Portfolio Statement Explorer
+# VIV Portfolio dashboard
 
-A public, descriptive dashboard for understanding the supplied LGT statement of assets dated 30 July 2026, in USD.
+Public statement explorer updated from the **23 August 2026** LGT statement (69 PDF pages). All active data files derive from this replacement. The original PDF and client/account identifiers are not included.
 
-The dashboard provides allocation, searchable holdings, dedicated Bonds and Options sections, cash and borrowing, reported performance, sanitized activity and a reading guide. It does not use live prices or recommend transactions.
+- [Dashboard](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/)
+- [Risk analysis](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#risk)
+- [Itemized risk reduction](https://viv-valuation-dashboard.nilkamals463352.chatgpt.site/#reduce-risk)
+- [GitHub Pages mirror](https://nilkamal11.github.io/viv-valuation-dashboard/)
 
-## Source and coverage
+## Coverage
 
-The source PDF has 302 physical pages (printed pages 0–301). References throughout use the printed numbering. The original PDF and raw extraction are intentionally excluded from this repository.
+336 holdings entries across 16 sections reconcile to **USD 8,303,406.26**, including USD 3,652.76 accrued interest. One unavailable valuation remains null. Overview allocation is the bank's fund look-through view, distinct from instrument sections.
 
-- 309 inventory entries across 16 detailed sections, including cash, loans and zero balances.
-- 2,302 dated activity entries, represented by 2,365 currency-leg rows. These are not unique trade counts.
-- 157 estimated interest payments in the source schedule. These are estimates as of the statement date, not confirmed receipts.
-- Allocation and performance are transcribed from printed pages 1–4. Fund look-through allocation differs from the detailed instrument categories.
+The options page covers 147 short positions, expiration scenarios and physical assignment obligations. The statement includes 34 positions whose expiry was already reached; settlement remains unconfirmed. The 113 later-expiry positions include 104 puts and nine explicitly covered calls. Later-expiry put gross strike payments equal USD 3,520,131.15 using statement FX, across different dates, not a simultaneous funding forecast or loss estimate. FUBO1 retains its OCC-adjusted 8-share plus USD 4.40 deliverable and multiplier of 100; the replacement lists two short contracts.
 
-Every detailed section subtotal reconciles to the cent. Known market/principal values of $7,719,886.64 plus $5,214.55 accrued interest reconcile to $7,725,101.19. An unavailable NORILSK NICKEL valuation remains null, not zero. The performance section uses $7,721,187.37; its $3,913.82 difference from the asset total is displayed without an invented explanation.
+The risk report gives a qualitative **High** assessment based on borrowing, market exposure, contingent purchases and uncertain collateral/contract terms. The reduction page provides seven priorities, a loan repayment illustration and 180 individual position reviews. It separately displays the four accumulators and one currency TARF labeled 2×. Their marked values do not establish remaining obligations or executable exit costs.
 
-Client and account numbers, IBANs, private payment names, internal transaction references, and nonstandard internal security identifiers are excluded. Public security identifiers and instrument names are retained. Financial figures are public by the owner's explicit request.
+Bonds, loans, private-fund commitments and performance are replaced from the new source. The performance end value, USD 8,311,117.32, is USD 7,711.06 higher than the reconciled holdings total; both are preserved. YTD time-weighted return is 17.64% through 23 August. Earlier months reported again in this statement use this replacement's values.
 
-## Run
+The replacement has **no transaction ledger**. The prior activity file is removed from the current source and bundle. Activity & income explains the gap and shows 144 estimated payments totaling USD 253,275.89, 10 September 2026–13 August 2027. They are estimates, not confirmed receipts. Existing Git history is retained.
 
-Use Node.js 22 LTS (22.13 or newer within 22.x). The Windows Node.js 24 runtime encountered a native shutdown assertion after static rendering; Node.js 22 completes successfully. Install with `npm ci`, start with `npm run dev`, and build with `npm run build`. `node --experimental-strip-types scripts/check-data.mjs` checks arithmetic, source counts, null handling and public-data patterns. `npx tsc --noEmit` checks types.
+## Data and methodology
 
-Source records are in `data/holdings.json` and `data/activity.json`. Summary values and source-page map are in `lib/portfolio.ts`. Do not replace unavailable values with zero or combine native-currency amounts. Keep separately listed accrued interest distinct from principal.
+All source references use printed pages; add one for the PDF viewer's physical page. Holdings: pp. 6–57. Options: pp. 35–55. Structured derivatives: pp. 56–57. FX: pp. 57–58. Estimated interest: pp. 59–63. Performance: pp. 2–5.
 
-## Options
+- `data/holdings.json`: normalized inventory and section reconciliation.
+- `data/portfolio.json`: allocation, currencies, performance, source map and coverage.
+- `data/options.json`: individual options, source terms, adjusted deliverables and FX audit.
+- `data/structured_contracts.json`: five 2× contracts; unavailable obligations are null.
+- `data/private_equity.json`, `data/bond_details.json`, `data/interest.json`: supporting schedules.
+- `lib/risk.ts`, `lib/options.ts`: shared calculations, with limits explained in the UI.
 
-`data/options.json` expands all 110 entries from the printed Options section (pp. 36–50): 102 short puts and 8 short calls, totaling 649 contracts and a signed statement mark of -$394,831.31. All eight calls have explicit source coverage remarks. A coverage remark is historical; no inference is made about later coverage or put collateral. Exact applied FX comes from printed p. 53. Every option quote multiplied by its signed quantity, valuation multiplier and FX reconciles to the source mark to the cent.
+No live prices, account connection, trading or messages to a lender. Public data omit names of clients, account/IBAN numbers and internal security identifiers. Conventional ISINs and instrument issuers remain. Financial mechanics link to primary investor-education sources in the dashboard.
 
-The Options tab includes contract terms, the dated option quote/position mark, editable expiration scenarios, an option-liability chart, full-assignment cash/share obligations, filters, an expiration schedule and gross put strike payments separated by currency. Scenario prices are optional, per contract and temporary. No underlying spot or live quote is invented, and actual outcomes after July 30 are unknown. Warrants and structured products are outside this ordinary-option calculator.
+## Run and validate
 
-`lib/options.ts` keeps strike/premium multipliers separate from share deliverables. The expiration calculation compares the aggregate strike payment with the value of delivered shares plus any fixed deliverable cash, applies the call/put direction, floors intrinsic value at zero, and gives short positions a negative signed option value. The threshold is an intrinsic-value threshold, not a premium-adjusted break-even price. Calculations exclude opening premium, fees, taxes, dividends, collateral offsets and subsequent FX changes; they are not total trade P/L or margin requirements.
+Use Node 22.13 or newer; Node 22 is the supported build runtime used in CI.
 
-FUBO1 is adjusted: each contract has multiplier 100 and delivers 8 FUBO shares plus $4.40 fixed cash, per [OCC memo 58712, April 6, 2026](https://infomemo.theocc.com/infomemos?number=58712). The 13 short $2.50 puts therefore require $3,250 gross cash on full assignment, receiving 104 shares and $57.20 cash. Their intrinsic threshold is a $30.70 FUBO share price. The displayed suffix 8 must not be used as the strike multiplier. GIVN uses 10 shares, and HK9999 uses 500.
+```text
+npm ci
+npm run dev
+node --experimental-strip-types scripts/check-data.mjs
+npx tsc --noEmit
+npm run build
+```
 
-General mechanics are referenced to the [OIC pricing guide](https://www.optionseducation.org/optionsoverview/options-pricing), [OIC exercise/assignment guide](https://www.optionseducation.org/optionsoverview/exercising-options), [Eurex Givaudan specifications](https://www.eurex.com/ex-en/markets/equ/equ-opt/options/Givaudan-952004) and [HKEX stock option specifications](https://www.hkex.com.hk/Products/Listed-Derivatives/Single-Stock/Stock-Options?sc_lang=en). Source rows do not specify each series' exercise style. Assignment figures model physical delivery from the printed contract sizes, with the documented FUBO1 adjustment. They do not claim to predict assignment or verify subsequent contract amendments. At-the-money or out-of-the-money status does not rule out assignment.
+Checks cover source-date coherence, all section and overall totals, the performance bridge, adjusted option pricing/assignment math, expiry group separation, bond/interest totals, actual risk formulas and removal of obsolete activity. Validation includes PDF extraction, targeted source-page visual review, static checks and HTTP/build checks; it does not claim browser interaction testing.
 
-The data checks cover every option's source identity, quantities, dates and quote reconstruction; direction and threshold behavior for all 110 contracts; adjusted FUBO1 cash/share accounting; GIVN/HK size exceptions; and invalid scenario inputs. Independent formula review also covered standard puts/calls and zero-price outcomes.
-
-The UI uses Vinext, React and the generated Shadcn/Base UI components. Sites hosting settings are in `.openai/hosting.json`. Static output is generated by the framework. The optional `SITE_BASE_PATH` environment variable supports hosting below a repository path.
-
-## Validation limits
-
-Data checks include section totals, page counts, sampled source comparisons and identifier patterns. Sampled PDF pages were visually inspected. This is not a visual check of every source row. The full sustainability graphics, original contract terms, full bank footnotes remain in the source document.
-
-An optional `explore_portfolio_holdings` WebMCP tool uses the same search and section controls. Its browser contract has not been tested in a supported WebMCP context.
+GitHub Actions builds with `SITE_BASE_PATH=/viv-valuation-dashboard`, exports the prefixed homepage/RSC/assets and deploys GitHub Pages. Sites uses the existing project in `.openai/hosting.json` and a packaged static build. Both publications use the same committed source.
