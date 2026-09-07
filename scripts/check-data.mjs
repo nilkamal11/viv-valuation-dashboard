@@ -1,8 +1,10 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { summary, allocation, currencies, components } from '../lib/portfolio.ts';
+import { optionTerms, expirationScenario, parseScenarioPrice } from '../lib/options.ts';
 const h=JSON.parse(fs.readFileSync(new URL('../data/holdings.json',import.meta.url)));
 const a=JSON.parse(fs.readFileSync(new URL('../data/activity.json',import.meta.url)));
+const o=JSON.parse(fs.readFileSync(new URL('../data/options.json',import.meta.url)));
 const cents=n=>Math.round(n*100);
 const sum=arr=>arr.reduce((n,v)=>n+v,0);
 assert.equal(h.statement_date,summary.date);
@@ -28,6 +30,48 @@ const bondCoupons=a.estimated_interest.rows.filter(x=>x.instrument==='FLR Barcla
 assert.equal(bondCoupons.length,4);
 assert.equal(sum(bondCoupons.map(x=>cents(x.amount))),1675000);
 assert.equal(sum(bondCoupons.map(x=>cents(x.statement_amount_usd))),2249192);
+assert.equal(o.options.length,110);
+assert.equal(new Set(o.options.map(x=>x.id)).size,110);
+assert.equal(o.options.filter(x=>x.type==='Put').length,102);
+assert.equal(o.options.filter(x=>x.type==='Call').length,8);
+assert.equal(sum(o.options.map(x=>x.signed_contracts)),-649);
+assert.equal(sum(o.options.map(x=>cents(x.statement_mark_usd))),-39483131);
+assert.deepEqual(o.options.map(x=>x.id).sort(),h.holdings.filter(x=>x.section==='Options (Derivatives)').map(x=>x.id).sort());
+for(const option of o.options){
+  const source=h.holdings.find(x=>x.id===option.id);
+  assert.equal(option.signed_contracts,source.quantity);
+  assert.equal(option.statement_mark_usd,source.value_usd);
+  assert.equal(option.expiration,source.maturity_date);
+  assert.equal(option.currency,source.currency);
+  assert.equal(option.printed_page,source.printed_page);
+  assert.ok(option.signed_contracts<0 && Number.isInteger(option.signed_contracts));
+  assert.ok(option.strike>0 && option.shares_per_contract>0 && option.strike_multiplier>0 && option.usd_per_currency>0);
+  assert.equal(cents(option.signed_contracts*option.quoted_option_price*option.strike_multiplier*option.usd_per_currency),cents(option.statement_mark_usd),option.id+' quote reconciliation');
+  assert.equal(Boolean(option.coverage_remark),option.type==='Call');
+  const t=optionTerms(option);
+  assert.equal(expirationScenario(option,t.threshold).signedValue,0);
+  const low=expirationScenario(option,t.threshold*.8),high=expirationScenario(option,t.threshold*1.2);
+  assert.ok(option.type==='Put'?low.signedValue<0&&high.signedValue===0:high.signedValue<0&&low.signedValue===0);
+  assert.equal(expirationScenario(option,option.type==='Put'?t.threshold*2:0).signedValue,0);
+}
+const fubo=o.options.find(x=>x.underlying==='FUBO1');
+assert.equal(fubo.strike_multiplier,100);assert.equal(fubo.shares_per_contract,8);
+assert.deepEqual(optionTerms(fubo),{contracts:13,shares:104,grossStrikeCash:3250,deliverableCash:57.2,threshold:30.7});
+assert.equal(cents(expirationScenario(fubo,0).intrinsic),319280);
+assert.equal(cents(expirationScenario(fubo,8.59).signedValue),-229944);
+assert.equal(expirationScenario(fubo,30.7).signedValue,0);
+const givn=o.options.find(x=>x.underlying==='GIVN');
+assert.equal(optionTerms(givn).grossStrikeCash,90000);
+assert.equal(expirationScenario(givn,2500).signedValue,-15000);
+const netease=o.options.find(x=>x.underlying==='9999');
+assert.equal(optionTerms(netease).grossStrikeCash,110000);
+assert.equal(expirationScenario(netease,200).signedValue,-10000);
+const call=o.options.find(x=>x.underlying==='ADS');
+assert.equal(optionTerms(call).shares,300);
+assert.equal(expirationScenario(call,240).signedValue,-12000);
+for(const invalid of ['', ' ', '-1', 'NaN', 'Infinity', '1000000001']) assert.equal(parseScenarioPrice(invalid),null);
+assert.equal(parseScenarioPrice('0'),0);assert.equal(parseScenarioPrice('30.70'),30.7);
+for(const invalid of [-1,NaN,Infinity])assert.throws(()=>expirationScenario(fubo,invalid));
 assert.equal(a.rows.length,2365);assert.equal(a.dated_entry_count,2302);
 assert.equal(sum(a.type_counts.map(x=>x.dated_entries)),2302);
 assert.equal(sum(a.month_counts.map(x=>x.dated_entries)),2302);
@@ -37,5 +81,5 @@ for(const r of a.reconciliation)assert.equal(cents(r.calculated_statement_usd),c
 assert.equal(a.estimated_interest.rows.length,157);
 assert.equal(sum(a.estimated_interest.rows.map(x=>cents(x.statement_amount_usd))),27929995);
 for(const r of a.rows){assert.ok(r.date>='2026-01-01'&&r.date<='2026-07-30');assert.match(r.currency,/^[A-Z]{3}$/);assert.ok(Number.isFinite(r.amount));assert.ok(r.printed_page>=61&&r.printed_page<=297);if(['Buys','Withdrawals'].includes(r.type))assert.ok(r.amount<=0);if(['Sells','Deposits'].includes(r.type))assert.ok(r.amount>=0);if(['Deposits','Withdrawals'].includes(r.type))assert.equal(r.instrument,'Payment');}
-for(const raw of [JSON.stringify(h),JSON.stringify(a)]){assert.doesNotMatch(raw,/\bLI\d{2}(?:[ -]?\d){17}\b/i,'IBAN');assert.doesNotMatch(raw,/\b\d{7}\.\d{3}\b/,'account reference');assert.doesNotMatch(raw,/\b(?:YY|XD)\d{8,}\b/,'internal security ID');assert.doesNotMatch(raw,/C:\\|Operations Dropbox|OneDrive|@/,'local path or email');}
-console.log('PASS: holdings, allocation, cash-flow bridge, loan rates, transaction counts, currency legs, estimates and public-data patterns.');
+for(const raw of [JSON.stringify(h),JSON.stringify(a),JSON.stringify(o)]){assert.doesNotMatch(raw,/\bLI\d{2}(?:[ -]?\d){17}\b/i,'IBAN');assert.doesNotMatch(raw,/\b\d{7}\.\d{3}\b/,'account reference');assert.doesNotMatch(raw,/\b(?:YY|XD)\d{8,}\b/,'internal security ID');assert.doesNotMatch(raw,/C:\\|Operations Dropbox|OneDrive|@/,'local path or email');}
+console.log('PASS: holdings, allocation, option marks/payoffs/assignment (including adjusted FUBO1), cash-flow bridge, loan rates, activity, estimates and public-data patterns.');
