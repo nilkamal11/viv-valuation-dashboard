@@ -4,90 +4,58 @@
     "cash_use_usd": 0,
     "sales": [
       {
-        "id": "holding-140",
+        "id": "holding-298",
         "illustrative_sale_target_usd": 300000,
         "known_related_positions": []
       },
       {
-        "id": "holding-051",
-        "illustrative_sale_target_usd": 250000,
-        "known_related_positions": [
-          {
-            "id": "holding-102",
-            "route": "direct_share",
-            "description": "Novo Nordisk A/S",
-            "printed_page": 21
-          },
-          {
-            "id": "holding-182",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option NON 350 Put 18 September 2026 100",
-            "printed_page": 35
-          }
-        ]
-      },
-      {
-        "id": "holding-037",
-        "illustrative_sale_target_usd": 175000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-038",
-        "illustrative_sale_target_usd": 175000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-047",
-        "illustrative_sale_target_usd": 175000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-132",
-        "illustrative_sale_target_usd": 175000,
+        "id": "holding-144",
+        "illustrative_sale_target_usd": 300000,
         "known_related_positions": []
       },
       {
         "id": "holding-135",
-        "illustrative_sale_target_usd": 125000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-130",
-        "illustrative_sale_target_usd": 125000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-171",
         "illustrative_sale_target_usd": 200000,
         "known_related_positions": []
       },
       {
-        "id": "holding-043",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": [
-          {
-            "id": "holding-181",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option GIVN 3000 Put 18 December 2026 10",
-            "printed_page": 35
-          }
-        ]
+        "id": "holding-175",
+        "illustrative_sale_target_usd": 200000,
+        "known_related_positions": []
       },
       {
-        "id": "holding-054",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": [
-          {
-            "id": "holding-189",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option 2FE 360 Put 17 December 2026 100",
-            "printed_page": 37
-          }
-        ]
+        "id": "holding-032",
+        "illustrative_sale_target_usd": 200000,
+        "known_related_positions": []
       },
       {
-        "id": "holding-060",
-        "illustrative_sale_target_usd": 100000,
+        "id": "holding-297",
+        "illustrative_sale_target_usd": 180000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-136",
+        "illustrative_sale_target_usd": 180000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-139",
+        "illustrative_sale_target_usd": 140000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-134",
+        "illustrative_sale_target_usd": 140000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-147",
+        "illustrative_sale_target_usd": 80000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-140",
+        "illustrative_sale_target_usd": 80000,
         "known_related_positions": []
       }
     ],
@@ -99,177 +67,47 @@
     "cash_use_usd": 500000,
     "sales": [
       {
-        "id": "holding-051",
+        "id": "holding-298",
+        "illustrative_sale_target_usd": 300000,
+        "known_related_positions": []
+      },
+      {
+        "id": "holding-144",
         "illustrative_sale_target_usd": 250000,
-        "known_related_positions": [
-          {
-            "id": "holding-102",
-            "route": "direct_share",
-            "description": "Novo Nordisk A/S",
-            "printed_page": 21
-          },
-          {
-            "id": "holding-182",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option NON 350 Put 18 September 2026 100",
-            "printed_page": 35
-          }
-        ]
+        "known_related_positions": []
       },
       {
-        "id": "holding-043",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": [
-          {
-            "id": "holding-181",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option GIVN 3000 Put 18 December 2026 10",
-            "printed_page": 35
-          }
-        ]
+        "id": "holding-135",
+        "illustrative_sale_target_usd": 180000,
+        "known_related_positions": []
       },
       {
-        "id": "holding-054",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": [
-          {
-            "id": "holding-189",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option 2FE 360 Put 17 December 2026 100",
-            "printed_page": 37
-          }
-        ]
+        "id": "holding-175",
+        "illustrative_sale_target_usd": 180000,
+        "known_related_positions": []
       },
       {
-        "id": "holding-045",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": [
-          {
-            "id": "holding-162",
-            "route": "structured_note",
-            "description": "Vontobel Financial Products Ltd",
-            "printed_page": 31
-          }
-        ]
+        "id": "holding-032",
+        "illustrative_sale_target_usd": 170000,
+        "known_related_positions": []
       },
       {
-        "id": "holding-053",
-        "illustrative_sale_target_usd": 75000,
-        "known_related_positions": [
-          {
-            "id": "holding-187",
-            "route": "short_put",
-            "description": "EUREX Frankfurt Aktiengesellschaft Option ASM2 1460 Put 16 October 2026 10",
-            "printed_page": 36
-          }
-        ]
-      },
-      {
-        "id": "holding-050",
-        "illustrative_sale_target_usd": 50000,
-        "known_related_positions": [
-          {
-            "id": "holding-161",
-            "route": "structured_note",
-            "description": "SG Issuer SA",
-            "printed_page": 31
-          }
-        ]
-      },
-      {
-        "id": "holding-123",
-        "illustrative_sale_target_usd": 50000,
-        "known_related_positions": [
-          {
-            "id": "holding-287",
-            "route": "short_put",
-            "description": "The Options Clearing Corp OCC Option TSLA 300 Put 16 October 2026 100",
-            "printed_page": 49
-          }
-        ]
-      },
-      {
-        "id": "holding-104",
-        "illustrative_sale_target_usd": 50000,
-        "known_related_positions": [
-          {
-            "id": "holding-152",
-            "route": "structured_note",
-            "description": "Vontobel Financial Products Ltd",
-            "printed_page": 29
-          },
-          {
-            "id": "holding-163",
-            "route": "structured_note",
-            "description": "DBS Bank Ltd 10.42 % 2026-13.08.2027 Fixed Coupon Notes linked to BROADCOM INC / NVIDIA CORP (Strike 225 / 116.802)",
-            "printed_page": 31
-          },
-          {
-            "id": "holding-318",
-            "route": "short_put",
-            "description": "The Options Clearing Corp OCC Option NVDA 220 Put 15 January 2027 100",
-            "printed_page": 54
-          }
-        ]
-      },
-      {
-        "id": "holding-096",
-        "illustrative_sale_target_usd": 50000,
-        "known_related_positions": [
-          {
-            "id": "holding-314",
-            "route": "short_put",
-            "description": "The Options Clearing Corp OCC Option IONQ 50 Put 15 January 2027 100",
-            "printed_page": 53
-          }
-        ]
-      },
-      {
-        "id": "holding-116",
-        "illustrative_sale_target_usd": 40000,
-        "known_related_positions": [
-          {
-            "id": "holding-151",
-            "route": "structured_note",
-            "description": "UBS AG, London Branch",
-            "printed_page": 29
-          }
-        ]
-      },
-      {
-        "id": "holding-097",
-        "illustrative_sale_target_usd": 40000,
-        "known_related_positions": [
-          {
-            "id": "holding-210",
-            "route": "short_put",
-            "description": "The Options Clearing Corp OCC Option KGC 26 Put 21 August 2026 100",
-            "printed_page": 39
-          }
-        ]
+        "id": "holding-297",
+        "illustrative_sale_target_usd": 150000,
+        "known_related_positions": []
       },
       {
         "id": "holding-136",
-        "illustrative_sale_target_usd": 100000,
+        "illustrative_sale_target_usd": 150000,
         "known_related_positions": []
       },
       {
-        "id": "holding-143",
-        "illustrative_sale_target_usd": 100000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-140",
-        "illustrative_sale_target_usd": 250000,
-        "known_related_positions": []
-      },
-      {
-        "id": "holding-132",
-        "illustrative_sale_target_usd": 145000,
+        "id": "holding-139",
+        "illustrative_sale_target_usd": 120000,
         "known_related_positions": []
       }
     ],
-    "label": "Use $500,000 cash; target mapped overlaps before other large positions",
+    "label": "Use $500,000 of account cash and fund the rest with sales",
     "sale_target_usd": 1500000
   }
 ]

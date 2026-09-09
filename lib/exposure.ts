@@ -17,7 +17,7 @@ export const fundIds=new Set(funds.flatMap(f=>f.holding_ids??[f.holding_id]));
 export const fullValue=(id:string)=>holdingById.get(id)?.total_value_usd??0;
 export const sum=(a:number[])=>a.reduce((s,n)=>s+n,0);
 export function kind(id:string){const h=holdingById.get(id)!;const o=optionById.get(id);if(o)return o.type==='Put'?'puts':'calls';if(h.section==='Equities')return 'shares';if(fundIds.has(id))return 'funds';if(h.section==='Structured products equities (Equities)')return 'notes';if(h.section==='Warrants (Derivatives)')return 'warrants';if(h.section==='Structured products')return h.description?.includes('Accumulator')?'accumulators':'fx';return 'other'}
-export const kindLabels:Record<string,string>={shares:'Direct shares',funds:'Fund units',puts:'Short puts',calls:'Short calls',notes:'Structured notes',accumulators:'Accumulators',warrants:'Warrants',fx:'FX contract',other:'Other'};
+export const kindLabels:Record<string,string>={shares:'Direct shares',funds:'Fund units',puts:'Put options',calls:'Call options',notes:'Structured notes',accumulators:'Accumulators',warrants:'Warrants',fx:'FX contract',other:'Other'};
 export const isExpired=(id:string)=>{const o=optionById.get(id);return !!o&&o.expiration<=snapshot};
 export const isUnresolved=(key:string)=>/unknown|unresolved|unnamed/i.test(key)||/unknown|unresolved|unnamed/i.test(entityByKey.get(key)?.type??'');
 export type FundLink={fund:Fund;name:string;weight:number|null;asOf:string|null;source:string;basis:string};

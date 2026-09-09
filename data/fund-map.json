@@ -1,8 +1,8 @@
 {
-  "statement_date": "2026-08-23",
+  "statement_date": "2026-09-07",
   "researched_on": "2026-09-07",
   "schema_version": 1,
-  "scope": "All 32 pooled investment vehicles in the statement, including three private-equity vehicles.",
+  "scope": "All 32 pooled investment vehicles in the 7 September 2026 statement, including private-equity vehicles.",
   "methodology": [
     "Themes summarize an investment mandate or disclosed historical portfolio; they are descriptive labels, not exact allocations.",
     "Named constituents are included only from identified primary fund documents or official manager holdings tables with dates on or before the account statement.",
@@ -13,9 +13,9 @@
   ],
   "funds": [
     {
-      "holding_id": "holding-033",
+      "holding_id": "holding-032",
       "holdings_ids": [
-        "holding-033"
+        "holding-032"
       ],
       "key": "fund:ares-strategic-income-offshore",
       "name": "Ares Wealth Management Solut Gl Access SCA SICAV RAIF - Ares Strat Inc Offsh",
@@ -34,16 +34,16 @@
       "notes": [
         "Exact offshore share-class portfolio was not verified in a public primary source. The US Ares Strategic Income Fund portfolio has not been substituted."
       ],
-      "statement_value_usd": 226866.95,
+      "statement_value_usd": 226538.89,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-034",
+      "holding_id": "holding-033",
       "holdings_ids": [
-        "holding-034"
+        "holding-033"
       ],
       "key": "fund:man-dynamic-income",
       "name": "Man Funds plc - Man Dynamic Income",
@@ -59,7 +59,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Flexible fixed income — primary fund source",
+          "title": "Flexible fixed income \u2014 primary fund source",
           "url": "https://www.man.com/documents/download/dbf19-f7dff-e3634-283bd/Man_Dynamic_Income_DYVB_USD_Factsheet_English_%2528United_States%2529_27-02-2026.pdf",
           "as_of": "2026-02-27",
           "kind": "strategy",
@@ -70,16 +70,16 @@
       "notes": [
         "Source is a different share class of the same Man Dynamic Income fund. No individual bond/issuer portfolio weights verified."
       ],
-      "statement_value_usd": 192145.93,
+      "statement_value_usd": 192633.15,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-129",
+      "holding_id": "holding-133",
       "holdings_ids": [
-        "holding-129"
+        "holding-133"
       ],
       "key": "fund:global-x-gold-etf",
       "name": "Global X Gold ETF Registered-units",
@@ -96,7 +96,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Gold futures — primary fund source",
+          "title": "Gold futures \u2014 primary fund source",
           "url": "https://www.globalx.ca/product/HUG",
           "as_of": null,
           "kind": "strategy",
@@ -107,16 +107,16 @@
       "notes": [
         "Gold-futures exposure; the statement places this vehicle in equity funds. Do not classify it as gold-mining shares or physical bullion."
       ],
-      "statement_value_usd": 12200.88,
+      "statement_value_usd": 11670.52,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-130",
+      "holding_id": "holding-134",
       "holdings_ids": [
-        "holding-130"
+        "holding-134"
       ],
       "key": "fund:ws-blue-whale-growth",
       "name": "WS Blue Whale Investment Funds - WS Blue Whale Growth Fund",
@@ -133,7 +133,7 @@
       "holdings_as_of": "2025-12-31",
       "sources": [
         {
-          "title": "Global active equities — primary fund source",
+          "title": "Global active equities \u2014 primary fund source",
           "url": "https://bluewhale.co.uk/BW_factsheet_20260106.pdf?1768937067=",
           "as_of": "2025-12-31",
           "kind": "historical_holdings",
@@ -253,18 +253,18 @@
         }
       ],
       "notes": [
-        "Ten named holdings are from 31 December 2025, roughly eight months before the account statement. Their combined weight is disclosed, but individual weights are not. Names are not confirmed holdings on 23 August 2026."
+        "Ten named holdings are from 31 December 2025, roughly eight months before the account statement. Their combined weight is disclosed, but individual weights are not. Names are not confirmed holdings on 7 September 2026."
       ],
-      "statement_value_usd": 141764.82,
+      "statement_value_usd": 142433.83,
       "weight_basis": "named_equity_holdings_without_individual_weights",
       "constituent_coverage_pct": 60.3,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-131",
+      "holding_id": "holding-135",
       "holdings_ids": [
-        "holding-131"
+        "holding-135"
       ],
       "key": "fund:csop-hang-seng-tech",
       "name": "CSOP ETF Series - CSOP Hang Seng TECH Index ETF",
@@ -282,7 +282,7 @@
       "holdings_as_of": "2025-12-31",
       "sources": [
         {
-          "title": "Hong Kong-listed technology — primary fund source",
+          "title": "Hong Kong-listed technology \u2014 primary fund source",
           "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000941_c.pdf",
           "as_of": "2025-12-31",
           "kind": "historical_holdings",
@@ -392,18 +392,18 @@
         }
       ],
       "notes": [
-        "Selected ten holdings from the 31 December 2025 portfolio in the 2025 annual report. These are dated historical weights, not a 23 August 2026 portfolio. The 3033 fund is also referenced by a structured accumulator."
+        "Selected ten holdings from the 31 December 2025 portfolio in the 2025 annual report. These are dated historical weights, not a 7 September 2026 portfolio. The 3033 fund is also referenced by a structured accumulator."
       ],
-      "statement_value_usd": 237881.65,
+      "statement_value_usd": 243731.76,
       "weight_basis": "equity_weight_pct_of_fund_nav",
       "constituent_coverage_pct": 70.24,
       "quantified_coverage_pct": 70.24,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-132",
+      "holding_id": "holding-136",
       "holdings_ids": [
-        "holding-132"
+        "holding-136"
       ],
       "key": "fund:ashoka-whiteoak-india-opportunities",
       "name": "Ashoka WhiteOak ICAV - Ashoka WhiteOak India Opportunities Fund",
@@ -419,7 +419,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Indian equities — primary fund source",
+          "title": "Indian equities \u2014 primary fund source",
           "url": "https://www.whiteoakcapitalpartners.com/ucits.php",
           "as_of": null,
           "kind": "strategy",
@@ -428,16 +428,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 194022.02,
+      "statement_value_usd": 194390.83,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-133",
+      "holding_id": "holding-137",
       "holdings_ids": [
-        "holding-133"
+        "holding-137"
       ],
       "key": "fund:bellevue-medtech-services",
       "name": "Bellevue Funds (Lux) SICAV - Bellevue Medtech & Services",
@@ -454,7 +454,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Medical technology and healthcare services — primary fund source",
+          "title": "Medical technology and healthcare services \u2014 primary fund source",
           "url": "https://www.bellevue.ch/all-en/all/products/healthcare-investments/medtech/bellevue-medtech-services/b-shares-usd",
           "as_of": null,
           "kind": "strategy",
@@ -463,16 +463,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 49395.56,
+      "statement_value_usd": 48187.99,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-134",
+      "holding_id": "holding-138",
       "holdings_ids": [
-        "holding-134"
+        "holding-138"
       ],
       "key": "fund:cambria-foreign-shareholder-yield",
       "name": "Cambria ETF Trust",
@@ -489,7 +489,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "International shareholder yield — primary fund source",
+          "title": "International shareholder yield \u2014 primary fund source",
           "url": "https://www.cambriafunds.com/fyld",
           "as_of": null,
           "kind": "strategy",
@@ -500,16 +500,16 @@
       "notes": [
         "The statement shortens the name to Cambria ETF Trust. ISIN US1320613003 / CUSIP 132061300 identifies FYLD, Foreign Shareholder Yield; it is not SYLD."
       ],
-      "statement_value_usd": 40750.0,
+      "statement_value_usd": 41190.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-135",
+      "holding_id": "holding-139",
       "holdings_ids": [
-        "holding-135"
+        "holding-139"
       ],
       "key": "fund:invesco-asian-equity",
       "name": "Invesco Funds SICAV - Invesco Asian Equity Fund",
@@ -525,7 +525,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Asian equities — primary fund source",
+          "title": "Asian equities \u2014 primary fund source",
           "url": "https://www.invesco.com/uk/en/insights/invesco-asian-equity-fund.html",
           "as_of": null,
           "kind": "strategy",
@@ -534,16 +534,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 145047.06,
+      "statement_value_usd": 147120.3,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-136",
+      "holding_id": "holding-140",
       "holdings_ids": [
-        "holding-136"
+        "holding-140"
       ],
       "key": "fund:ishares-expanded-tech-software",
       "name": "iShares Expanded Tech-Software Sector ETF",
@@ -560,7 +560,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "North American software — primary fund source",
+          "title": "North American software \u2014 primary fund source",
           "url": "https://www.ishares.com/us/products/239771/IGV",
           "as_of": null,
           "kind": "strategy",
@@ -571,16 +571,16 @@
       "notes": [
         "The accessible official holdings CSV is dated 4 September 2026. It was excluded from historical look-through because it is later than the account statement."
       ],
-      "statement_value_usd": 120942.9,
+      "statement_value_usd": 122346.9,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-137",
+      "holding_id": "holding-141",
       "holdings_ids": [
-        "holding-137"
+        "holding-141"
       ],
       "key": "fund:ishares-edge-msci-usa-value-factor",
       "name": "iShares IV PLC - iShares Edge MSCI USA Value Factor UCITS ETF",
@@ -597,7 +597,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US value equities — primary fund source",
+          "title": "US value equities \u2014 primary fund source",
           "url": "https://www.ishares.com/ch/individual/en/products/285207/ishares-edge-msci-usa-value-factor-ucits-etf-usd-acc-fund",
           "as_of": null,
           "kind": "strategy",
@@ -606,16 +606,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 19385.0,
+      "statement_value_usd": 19625.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-138",
+      "holding_id": "holding-142",
       "holdings_ids": [
-        "holding-138"
+        "holding-142"
       ],
       "key": "fund:ishares-semiconductor",
       "name": "iShares Semiconductor ETF",
@@ -632,7 +632,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Semiconductors — primary fund source",
+          "title": "Semiconductors \u2014 primary fund source",
           "url": "https://www.ishares.com/us/products/239705/SOXX",
           "as_of": null,
           "kind": "strategy",
@@ -643,16 +643,16 @@
       "notes": [
         "Shares a semiconductor theme with SMH. No fund-specific historical constituent weights were verified for the statement date; similar mandate does not mean identical holdings."
       ],
-      "statement_value_usd": 58245.6,
+      "statement_value_usd": 58224.32,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-139",
+      "holding_id": "holding-143",
       "holdings_ids": [
-        "holding-139"
+        "holding-143"
       ],
       "key": "fund:jpmorgan-betabuilders-japan",
       "name": "JPMorgan BetaBuilders Japan Fund",
@@ -668,7 +668,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Japanese equities — primary fund source",
+          "title": "Japanese equities \u2014 primary fund source",
           "url": "https://am.jpmorgan.com/content/dam/jpm-am-aem/americas/us/en/literature/fact-sheet/etfs/FS-BBJP.PDF",
           "as_of": "2026-03-31",
           "kind": "strategy",
@@ -677,16 +677,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 76870.0,
+      "statement_value_usd": 79300.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-140",
+      "holding_id": "holding-144",
       "holdings_ids": [
-        "holding-140"
+        "holding-144"
       ],
       "key": "fund:lazard-global-listed-infrastructure",
       "name": "Lazard Global Active Funds PLC - Lazard Global Listed Infrastructure Equity Fund",
@@ -702,7 +702,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Global listed infrastructure — primary fund source",
+          "title": "Global listed infrastructure \u2014 primary fund source",
           "url": "https://www.lazardassetmanagement.com/docs/25666/SupplementLazardGlobalListedInfrastructureEquityFund_en.pdf",
           "as_of": null,
           "kind": "strategy",
@@ -711,16 +711,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 361937.81,
+      "statement_value_usd": 353741.22,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-141",
+      "holding_id": "holding-145",
       "holdings_ids": [
-        "holding-141"
+        "holding-145"
       ],
       "key": "fund:rba-american-industrial-renaissance",
       "name": "RBA American Industrial Renaissance ETF",
@@ -737,7 +737,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US industrial activity — primary fund source",
+          "title": "US industrial activity \u2014 primary fund source",
           "url": "https://www.ftportfolios.com/Retail/etf/etfsummary.aspx?Ticker=AIRR",
           "as_of": null,
           "kind": "strategy",
@@ -746,16 +746,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 57635.0,
+      "statement_value_usd": 54360.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-142",
+      "holding_id": "holding-146",
       "holdings_ids": [
-        "holding-142"
+        "holding-146"
       ],
       "key": "fund:schwab-us-dividend-equity",
       "name": "Schwab US Dividend Equity ETF",
@@ -772,7 +772,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US dividend equities — primary fund source",
+          "title": "US dividend equities \u2014 primary fund source",
           "url": "https://www.schwabassetmanagement.com/products/schd",
           "as_of": null,
           "kind": "strategy",
@@ -783,16 +783,16 @@
       "notes": [
         "Current manager pages update frequently. Search-cache holdings were not treated as a fixed historical fund file."
       ],
-      "statement_value_usd": 70220.0,
+      "statement_value_usd": 69600.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-143",
+      "holding_id": "holding-147",
       "holdings_ids": [
-        "holding-143"
+        "holding-147"
       ],
       "key": "fund:vaneck-gold-miners",
       "name": "VanEck Gold Miners ETF",
@@ -810,7 +810,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Gold-mining equities — primary fund source",
+          "title": "Gold-mining equities \u2014 primary fund source",
           "url": "https://www.vaneck.com/us/en/investments/gold-miners-etf-gdx/holdings/",
           "as_of": null,
           "kind": "strategy",
@@ -821,16 +821,16 @@
       "notes": [
         "Mining-company equity exposure differs from physical gold and gold futures. No dated historical constituent weights included."
       ],
-      "statement_value_usd": 133679.0,
+      "statement_value_usd": 129038.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-144",
+      "holding_id": "holding-148",
       "holdings_ids": [
-        "holding-144"
+        "holding-148"
       ],
       "key": "fund:vaneck-semiconductor",
       "name": "VanEck Semiconductor ETF",
@@ -847,7 +847,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Semiconductors — primary fund source",
+          "title": "Semiconductors \u2014 primary fund source",
           "url": "https://www.vaneck.com/us/en/investments/semiconductor-etf-smh/",
           "as_of": null,
           "kind": "strategy",
@@ -858,16 +858,16 @@
       "notes": [
         "The accessible official factsheet is dated 31 August 2026, later than the account statement; its holdings were excluded from historical look-through."
       ],
-      "statement_value_usd": 56042.0,
+      "statement_value_usd": 56701.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-145",
+      "holding_id": "holding-149",
       "holdings_ids": [
-        "holding-145"
+        "holding-149"
       ],
       "key": "fund:vanguard-industrials",
       "name": "Vanguard Industrials ETF",
@@ -884,7 +884,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US industrials — primary fund source",
+          "title": "US industrials \u2014 primary fund source",
           "url": "https://advisors.vanguard.com/investments/products/vis/vanguard-industrials-etf",
           "as_of": null,
           "kind": "strategy",
@@ -893,16 +893,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 6915.2,
+      "statement_value_usd": 6734.2,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-146",
+      "holding_id": "holding-150",
       "holdings_ids": [
-        "holding-146"
+        "holding-150"
       ],
       "key": "fund:vanguard-russell-2000",
       "name": "Vanguard Russell 2000 ETF",
@@ -919,7 +919,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US small companies — primary fund source",
+          "title": "US small companies \u2014 primary fund source",
           "url": "https://advisors.vanguard.com/investments/products/vtwo/vanguard-russell-2000-etf",
           "as_of": null,
           "kind": "strategy",
@@ -928,16 +928,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 60625.0,
+      "statement_value_usd": 59810.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-147",
+      "holding_id": "holding-151",
       "holdings_ids": [
-        "holding-147"
+        "holding-151"
       ],
       "key": "fund:vanguard-sp500",
       "name": "Vanguard S&P 500 ETF",
@@ -954,7 +954,7 @@
       "holdings_as_of": "2026-06-30",
       "sources": [
         {
-          "title": "Large US companies — primary fund source",
+          "title": "Large US companies \u2014 primary fund source",
           "url": "https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf",
           "as_of": "2026-06-30",
           "kind": "historical_holdings",
@@ -1064,18 +1064,18 @@
         }
       ],
       "notes": [
-        "Top ten securities only, as published in the official 30 June 2026 holdings table. Alphabet A and C are separate securities with a common company key. These weights predate the statement and are indicative, not exact 23 August holdings."
+        "Top ten securities only, as published in the official 30 June 2026 holdings table. Alphabet A and C are separate securities with a common company key. These weights predate the statement and are indicative, not exact 7 September holdings."
       ],
-      "statement_value_usd": 70371.0,
+      "statement_value_usd": 70801.0,
       "weight_basis": "equity_weight_pct_of_fund_nav",
       "constituent_coverage_pct": 36.31,
       "quantified_coverage_pct": 36.31,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-166",
+      "holding_id": "holding-170",
       "holdings_ids": [
-        "holding-166"
+        "holding-170"
       ],
       "key": "fund:antarctica-alpha-access-fhe",
       "name": "Antarctica Alpha Access Portfolio SPC Ltd - FHE Fund Segregated Portfolio",
@@ -1094,16 +1094,16 @@
       "notes": [
         "No reliable public primary-source constituent or strategy disclosure was verified for this exact segregated portfolio."
       ],
-      "statement_value_usd": 284306.91,
+      "statement_value_usd": 265125.73,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-167",
+      "holding_id": "holding-171",
       "holdings_ids": [
-        "holding-167"
+        "holding-171"
       ],
       "key": "fund:seligman-tech-spectrum-offshore",
       "name": "Seligman Tech Spectrum Offshore Fund",
@@ -1119,7 +1119,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Hedge fund / holdings unknown — primary fund source",
+          "title": "Hedge fund / holdings unknown \u2014 primary fund source",
           "url": "https://www.sec.gov/Archives/edgar/data/1722509/000092963825003761/xslFormDX08/primary_doc.xml",
           "as_of": "2025-10-03",
           "kind": "strategy",
@@ -1137,9 +1137,9 @@
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-168",
+      "holding_id": "holding-172",
       "holdings_ids": [
-        "holding-168"
+        "holding-172"
       ],
       "key": "fund:crown-direct-andromeda",
       "name": "Crown Direct - Andromeda S.C.SP.",
@@ -1158,16 +1158,16 @@
       "notes": [
         "No dated public primary-source underlying portfolio was verified for this exact fund."
       ],
-      "statement_value_usd": 488651.45,
+      "statement_value_usd": 483903.74,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-169",
+      "holding_id": "holding-173",
       "holdings_ids": [
-        "holding-169"
+        "holding-173"
       ],
       "key": "fund:lightrock-climate-impact-feeder",
       "name": "LGT PB AIF SICAV - Lightrock Climate Impact Feeder Fund",
@@ -1184,7 +1184,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Climate-focused private equity — primary fund source",
+          "title": "Climate-focused private equity \u2014 primary fund source",
           "url": "https://www.lightrock.com/news/lightrock-closes-inaugural-climate-impact-fund-at-eu860-million-above-initial-hard-cap",
           "as_of": null,
           "kind": "strategy",
@@ -1195,16 +1195,16 @@
       "notes": [
         "Source describes the named underlying strategy; it does not provide this feeder share class portfolio or company weights. No manager-wide portfolio list has been substituted."
       ],
-      "statement_value_usd": 266184.5,
+      "statement_value_usd": 265235.82,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-170",
+      "holding_id": "holding-174",
       "holdings_ids": [
-        "holding-170"
+        "holding-174"
       ],
       "key": "fund:lightrock-evergreen",
       "name": "Lightrock Evergreen Fund SICAV",
@@ -1221,7 +1221,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Private impact investments — primary fund source",
+          "title": "Private impact investments \u2014 primary fund source",
           "url": "https://www.lgt.com/sg-en/about-lgt/lgt-news/lgt-and-lightrock-raise-more-than-usd-900-million-for-first-joint-impact-offering-89902",
           "as_of": null,
           "kind": "strategy",
@@ -1239,9 +1239,9 @@
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-171",
+      "holding_id": "holding-175",
       "holdings_ids": [
-        "holding-171"
+        "holding-175"
       ],
       "key": "fund:vanguard-real-estate",
       "name": "Vanguard Real Estate ETF",
@@ -1258,7 +1258,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "US listed real estate — primary fund source",
+          "title": "US listed real estate \u2014 primary fund source",
           "url": "https://advisors.vanguard.com/investments/products/vnq/vanguard-real-estate-etf?holding=true",
           "as_of": null,
           "kind": "strategy",
@@ -1267,16 +1267,16 @@
       ],
       "named_constituents": [],
       "notes": [],
-      "statement_value_usd": 249008.0,
+      "statement_value_usd": 242738.56,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-178",
+      "holding_id": "holding-182",
       "holdings_ids": [
-        "holding-178"
+        "holding-182"
       ],
       "key": "fund:abrdn-platinum",
       "name": "abrdn Platinum ETF Trust",
@@ -1293,7 +1293,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Physical platinum — primary fund source",
+          "title": "Physical platinum \u2014 primary fund source",
           "url": "https://www.aberdeeninvestments.com/en-us/investor/funds/view-all-funds/-us0032601066",
           "as_of": null,
           "kind": "strategy",
@@ -1304,16 +1304,16 @@
       "notes": [
         "Commodity exposure, with no company constituents. No exact historical metal allocation percentage has been assumed."
       ],
-      "statement_value_usd": 68080.0,
+      "statement_value_usd": 66000.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-179",
+      "holding_id": "holding-183",
       "holdings_ids": [
-        "holding-179"
+        "holding-183"
       ],
       "key": "fund:abrdn-silver",
       "name": "abrdn Silver ETF Trust",
@@ -1330,7 +1330,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Physical silver — primary fund source",
+          "title": "Physical silver \u2014 primary fund source",
           "url": "https://www.aberdeeninvestments.com/en-us/investor/investment-solutions/commodities/sivr",
           "as_of": null,
           "kind": "strategy",
@@ -1341,16 +1341,16 @@
       "notes": [
         "Commodity exposure, with no company constituents. No exact historical metal allocation percentage has been assumed."
       ],
-      "statement_value_usd": 65900.0,
+      "statement_value_usd": 62910.0,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-180",
+      "holding_id": "holding-184",
       "holdings_ids": [
-        "holding-180"
+        "holding-184"
       ],
       "key": "fund:spdr-gold-trust",
       "name": "SPDR Gold Trust",
@@ -1367,7 +1367,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Physical gold — primary fund source",
+          "title": "Physical gold \u2014 primary fund source",
           "url": "https://www.ssga.com/us/en/individual/etfs/spdr-gold-shares-gld",
           "as_of": null,
           "kind": "strategy",
@@ -1378,16 +1378,16 @@
       "notes": [
         "Commodity exposure, with no company constituents. The account also contains a structured accumulator referencing GLD. No exact historical gold allocation percentage has been assumed."
       ],
-      "statement_value_usd": 16511.04,
+      "statement_value_usd": 31728.06,
       "weight_basis": null,
       "constituent_coverage_pct": null,
       "quantified_coverage_pct": 0,
       "complete_holdings": false
     },
     {
-      "holding_id": "holding-335",
+      "holding_id": "holding-297",
       "holdings_ids": [
-        "holding-335"
+        "holding-297"
       ],
       "key": "fund:franklin-income",
       "name": "Franklin Templeton Investment Funds SICAV - Franklin Income Fund",
@@ -1405,7 +1405,7 @@
       "holdings_as_of": "2026-07-31",
       "sources": [
         {
-          "title": "US equity and bond income — primary fund source",
+          "title": "US equity and bond income \u2014 primary fund source",
           "url": "https://www.franklintempleton.lu/download/en-lu/fact-sheet/a5ebb9c4-2898-492b-b223-a0039504a029/Factsheet-FranklinIncomeFund-A%28Mdis%29USD-4909-A-FF-GB-en-GB.PDF",
           "as_of": "2026-07-31",
           "kind": "historical_holdings",
@@ -1505,7 +1505,7 @@
       "notes": [
         "The source reports top issuer exposures across the fund. They are NOT equity-only weights and may include debt, convertibles or equity-linked notes. Keep issuer exposure separate from share-equivalent ownership."
       ],
-      "statement_value_usd": 199402.99,
+      "statement_value_usd": 198009.96,
       "weight_basis": "issuer_weight_pct_of_total_fund_assets_not_equity_only",
       "constituent_coverage_pct": 14.33,
       "quantified_coverage_pct": 14.33,
@@ -1530,9 +1530,9 @@
       }
     },
     {
-      "holding_id": "holding-336",
+      "holding_id": "holding-298",
       "holdings_ids": [
-        "holding-336"
+        "holding-298"
       ],
       "key": "fund:lgt-premium-strategy-gim",
       "name": "LGT (CH) Premium Strategy GIM",
@@ -1549,7 +1549,7 @@
       "holdings_as_of": null,
       "sources": [
         {
-          "title": "Global multi-asset and alternatives — primary fund source",
+          "title": "Global multi-asset and alternatives \u2014 primary fund source",
           "url": "https://sfd.lbswiss.ch/sfdpub/docs/fsm-6307_00_04-20250531-en.pdf",
           "as_of": "2025-05-31",
           "kind": "strategy",
@@ -1568,13 +1568,7 @@
     }
   ],
   "checks": {
-    "fund_count": 32,
-    "fund_statement_value_usd": 4779760.52,
-    "historical_constituent_fund_count": 4,
-    "strategy_only_fund_count": 24,
-    "opaque_fund_count": 4,
-    "named_constituent_rows": 38,
-    "all_statement_funds_mapped": true,
-    "no_post_statement_constituent_dates": true
+    "pooled_vehicle_count": 32,
+    "all_holding_ids_present": true
   }
 }

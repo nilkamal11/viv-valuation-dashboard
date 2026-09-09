@@ -1,107 +1,107 @@
 {
   "summary": {
-    "date": "2026-08-23",
-    "net": 8303406.26,
-    "performanceEnd": 8311117.32,
+    "date": "2026-09-07",
+    "net": 8209050.84,
+    "performanceEnd": 8209050.84,
     "start": 7885036.3,
-    "deposits": 150878.18,
-    "withdrawals": -1043776.47,
-    "investmentChange": 1318979.31,
-    "returnPct": 17.64
+    "deposits": 196802.89,
+    "withdrawals": -1076183.78,
+    "investmentChange": 1203395.43,
+    "returnPct": 16.01
   },
   "allocation": [
     {
       "name": "Equities",
-      "value": 9249415.29,
-      "pct": 111.39,
+      "value": 9353298.78,
+      "pct": 113.94,
       "meaning": "Shares and the equity portions of investment funds."
     },
     {
       "name": "Private equity",
-      "value": 1096781.42,
-      "pct": 13.21,
+      "value": 1091274.87,
+      "pct": 13.29,
       "meaning": "Investments in companies outside public stock markets, including fund allocations."
     },
     {
       "name": "Bonds",
-      "value": 961115.91,
-      "pct": 11.57,
+      "value": 953978.43,
+      "pct": 11.62,
       "meaning": "Debt securities and the bond portions of funds."
     },
     {
       "name": "Liquidity",
-      "value": 1296797.91,
-      "pct": 15.62,
+      "value": 1198435.41,
+      "pct": 14.6,
       "meaning": "Net cash balances with accrued interest included; positive and negative currency accounts are netted."
     },
     {
       "name": "Hedge funds",
-      "value": 526435.08,
-      "pct": 6.34,
+      "value": 506608.43,
+      "pct": 6.17,
       "meaning": "Funds classified by the bank as hedge funds."
     },
     {
       "name": "Real estate participations",
-      "value": 273232.02,
-      "pct": 3.29,
+      "value": 266962.58,
+      "pct": 3.25,
       "meaning": "Property-related investments and portions of funds."
     },
     {
       "name": "Commodities / metals",
-      "value": 150491.04,
-      "pct": 1.81,
+      "value": 160638.06,
+      "pct": 1.96,
       "meaning": "Precious metals and commodity-related investments."
     },
     {
       "name": "Others",
-      "value": 3872.81,
-      "pct": 0.05,
+      "value": 3455.15,
+      "pct": 0.04,
       "meaning": "Remaining amounts in the bank allocation."
     },
     {
       "name": "Short-term investments",
-      "value": -23655.77,
-      "pct": -0.28,
+      "value": -28317.82,
+      "pct": -0.34,
       "meaning": "The bank net allocation to short-term investments, including fund components."
     },
     {
       "name": "Derivatives",
-      "value": -430686.33,
-      "pct": -5.19,
+      "value": -361227.08,
+      "pct": -4.4,
       "meaning": "Net marked values attributed to derivatives, not contract notional amounts."
     },
     {
       "name": "Credit / borrowing",
-      "value": -4800393.12,
-      "pct": -57.81,
+      "value": -4936055.97,
+      "pct": -60.13,
       "meaning": "Fixed advances owed to the bank, including accrued debit interest; negative cash accounts are classified separately under Liquidity."
     }
   ],
   "currencies": [
     {
       "name": "USD",
-      "value": 8334593.84,
-      "pct": 100.38
+      "value": 8434740.72,
+      "pct": 102.75
     },
     {
       "name": "CAD",
-      "value": -1175292.25,
-      "pct": -14.15
+      "value": -1192464.76,
+      "pct": -14.53
     },
     {
       "name": "EUR",
-      "value": 651186.32,
-      "pct": 7.84
+      "value": 503178.78,
+      "pct": 6.13
     },
     {
       "name": "JPY",
-      "value": -523740.41,
-      "pct": -6.31
+      "value": -494023.72,
+      "pct": -6.02
     },
     {
       "name": "Various",
-      "value": 1016658.76,
-      "pct": 12.24
+      "value": 957619.82,
+      "pct": 11.67
     }
   ],
   "months": [
@@ -158,89 +158,69 @@
       "cumulative": 7.75
     },
     {
-      "label": "Aug 1-23",
-      "end": 8311117.32,
-      "change": 711713.48,
-      "pct": 9.18,
-      "cumulative": 17.64
+      "label": "Aug",
+      "end": 8224774.63,
+      "change": 625370.79,
+      "pct": 8.05,
+      "cumulative": 16.43
+    },
+    {
+      "label": "Sep 1-7",
+      "end": 8209050.84,
+      "change": -29241.19,
+      "pct": -0.36,
+      "cumulative": 16.01
     }
   ],
   "history": [
     {
-      "label": "2018 (3 Jan-31 Dec)",
-      "end": 1171136.49,
-      "change": -128833.51,
-      "pct": -9.91
-    },
-    {
-      "label": "2019",
-      "end": 2008589.13,
-      "change": 237477.8,
-      "pct": 17.49
-    },
-    {
-      "label": "2020",
-      "end": 5001957.74,
-      "change": 651262.84,
-      "pct": 5.01
-    },
-    {
-      "label": "2021",
-      "end": 5179030.08,
-      "change": 325429.08,
-      "pct": 6.62
-    },
-    {
-      "label": "2022",
-      "end": 4681710.95,
-      "change": -3222799.03,
-      "pct": -42.47
-    },
-    {
-      "label": "2023",
-      "end": 5371498.54,
-      "change": 1607119.33,
-      "pct": 37.58
-    },
-    {
-      "label": "2024",
-      "end": 7436227.96,
-      "change": 199521.46,
-      "pct": 3.79
-    },
-    {
-      "label": "2025",
-      "end": 7885036.3,
-      "change": 734660.11,
-      "pct": 10.21
-    },
-    {
-      "label": "2026 (1 Jan-23 Aug)",
-      "end": 8311117.32,
-      "change": 1318979.31,
-      "pct": 17.64
+      "label": "2026 (1 Jan-7 Sep)",
+      "end": 8209050.84,
+      "change": 1203395.43,
+      "pct": 16.01
     }
   ],
-  "components": [
+  "components": [],
+  "fxRates": [
     {
-      "name": "Price gains / losses, including transaction costs",
-      "value": 1118468.31
+      "currency": "CAD",
+      "quote": 1.3808,
+      "usd_per_currency": 0.7242178447276941
     },
     {
-      "name": "Coupons / credit interest / dividends / withholding taxes",
-      "value": 272658.33
+      "currency": "CHF",
+      "quote": 0.809,
+      "usd_per_currency": 1.2360939431396785
     },
     {
-      "name": "Debit interest",
-      "value": -58976.35
+      "currency": "DKK",
+      "quote": 6.4267,
+      "usd_per_currency": 0.15560085269267274
     },
     {
-      "name": "Expenses and charges",
-      "value": -13927.09
+      "currency": "EUR",
+      "quote": 1.1631,
+      "usd_per_currency": 1.1631
     },
     {
-      "name": "Change in accrued interest",
-      "value": 756.11
+      "currency": "GBP",
+      "quote": 1.3543,
+      "usd_per_currency": 1.3543
+    },
+    {
+      "currency": "HKD",
+      "quote": 7.8399,
+      "usd_per_currency": 0.12755264735519586
+    },
+    {
+      "currency": "JPY",
+      "quote": 154.313,
+      "usd_per_currency": 0.006480335422161452
+    },
+    {
+      "currency": "USD",
+      "quote": 1,
+      "usd_per_currency": 1
     }
   ],
   "sourceMap": [
@@ -251,276 +231,45 @@
     ],
     [
       "Performance",
-      "2-5",
-      "2026 value bridge, category contribution chart, monthly returns and historical annual results."
+      "2-3",
+      "2026 value bridge and monthly returns through 7 September."
     ],
     [
       "Holdings and borrowing",
-      "6-57",
-      "Detailed instruments, cash balances, fixed advances and contracts."
-    ],
-    [
-      "Further information",
-      "57-63",
-      "Reference exchange rates (57-58), duration (58) and estimated future interest (59-63)."
+      "4-52",
+      "Detailed cash balances, advances, securities and contracts."
     ],
     [
       "Sustainability",
-      "64",
-      "The bank sustainability analysis and coverage notes."
+      "53, 56-57",
+      "Bank sustainability methodology and risk information."
     ],
     [
-      "Glossary and methodology",
-      "65-68",
-      "Bank terminology, valuation qualifications and sustainability method."
+      "Glossary and disclaimers",
+      "54-55",
+      "Terminology and valuation qualifications."
     ]
   ],
-  "performanceContributions": [
-    {
-      "name": "Liquidity",
-      "contribution_pp": -0.21,
-      "printed_page": 3
-    },
-    {
-      "name": "Credit",
-      "contribution_pp": -0.81,
-      "printed_page": 3
-    },
-    {
-      "name": "Bonds",
-      "contribution_pp": 0.58,
-      "printed_page": 3
-    },
-    {
-      "name": "Equities",
-      "contribution_pp": 12.79,
-      "printed_page": 3
-    },
-    {
-      "name": "Hedge funds",
-      "contribution_pp": 1.57,
-      "printed_page": 3
-    },
-    {
-      "name": "Private equity",
-      "contribution_pp": 0.61,
-      "printed_page": 3
-    },
-    {
-      "name": "Real estate participations",
-      "contribution_pp": 0.37,
-      "printed_page": 3
-    },
-    {
-      "name": "Commodities / metals",
-      "contribution_pp": -0.22,
-      "printed_page": 3
-    },
-    {
-      "name": "Derivatives",
-      "contribution_pp": 4.33,
-      "printed_page": 3
-    },
-    {
-      "name": "Others",
-      "contribution_pp": 0.51,
-      "printed_page": 3
-    },
-    {
-      "name": "Foreign exchange",
-      "contribution_pp": -1.88,
-      "printed_page": 3
-    }
-  ],
-  "fxRates": [
-    {
-      "currency": "AUD",
-      "source_rate": 0.71638,
-      "usd_per_currency": 0.71638,
-      "printed_page": 57
-    },
-    {
-      "currency": "CAD",
-      "source_rate": 1.37736,
-      "usd_per_currency": 0.7260266016146832,
-      "printed_page": 57
-    },
-    {
-      "currency": "CHF",
-      "source_rate": 0.80112,
-      "usd_per_currency": 1.2482524465747953,
-      "printed_page": 57
-    },
-    {
-      "currency": "DKK",
-      "source_rate": 6.40466,
-      "usd_per_currency": 0.1561363132469171,
-      "printed_page": 57
-    },
-    {
-      "currency": "EUR",
-      "source_rate": 1.16722,
-      "usd_per_currency": 1.16722,
-      "printed_page": 58
-    },
-    {
-      "currency": "GBP",
-      "source_rate": 1.36237,
-      "usd_per_currency": 1.36237,
-      "printed_page": 58
-    },
-    {
-      "currency": "HKD",
-      "source_rate": 7.84008,
-      "usd_per_currency": 0.12754971888041958,
-      "printed_page": 58
-    },
-    {
-      "currency": "INR",
-      "source_rate": 95.72257,
-      "usd_per_currency": 0.010446856995168433,
-      "printed_page": 58
-    },
-    {
-      "currency": "JPY",
-      "source_rate": 158.965,
-      "usd_per_currency": 0.0062906929198251185,
-      "printed_page": 58
-    },
-    {
-      "currency": "NOK",
-      "source_rate": 9.30185,
-      "usd_per_currency": 0.10750549621849417,
-      "printed_page": 58
-    },
-    {
-      "currency": "SEK",
-      "source_rate": 9.46969,
-      "usd_per_currency": 0.1056000777216572,
-      "printed_page": 58
-    },
-    {
-      "currency": "USD",
-      "source_rate": 1.0,
-      "usd_per_currency": 1.0,
-      "printed_page": 58
-    }
-  ],
-  "duration": {
-    "printed_page": 58,
-    "rows": [
-      {
-        "currency": "AUD",
-        "balance_in_currency": 0,
-        "balance_usd": 0,
-        "modified_duration": 0
-      },
-      {
-        "currency": "CAD",
-        "balance_in_currency": -2190781.02,
-        "balance_usd": -1590565.3,
-        "modified_duration": -0.01
-      },
-      {
-        "currency": "CHF",
-        "balance_in_currency": -1377602.41,
-        "balance_usd": -1719595.58,
-        "modified_duration": 0
-      },
-      {
-        "currency": "DKK",
-        "balance_in_currency": -791260.33,
-        "balance_usd": -123544.47,
-        "modified_duration": 0
-      },
-      {
-        "currency": "EUR",
-        "balance_in_currency": -103883.55,
-        "balance_usd": -121254.95,
-        "modified_duration": 0
-      },
-      {
-        "currency": "GBP",
-        "balance_in_currency": 60387.91,
-        "balance_usd": 82270.67,
-        "modified_duration": 0.37
-      },
-      {
-        "currency": "HKD",
-        "balance_in_currency": -3149803.67,
-        "balance_usd": -401756.58,
-        "modified_duration": 0
-      },
-      {
-        "currency": "INR",
-        "balance_in_currency": 0,
-        "balance_usd": 0,
-        "modified_duration": 0
-      },
-      {
-        "currency": "JPY",
-        "balance_in_currency": -125555757,
-        "balance_usd": -789832.71,
-        "modified_duration": 0
-      },
-      {
-        "currency": "NOK",
-        "balance_in_currency": 0,
-        "balance_usd": 0,
-        "modified_duration": 0
-      },
-      {
-        "currency": "SEK",
-        "balance_in_currency": 0,
-        "balance_usd": 0,
-        "modified_duration": 0
-      },
-      {
-        "currency": "USD",
-        "balance_in_currency": 1455054.58,
-        "balance_usd": 1455054.58,
-        "modified_duration": 0
-      }
-    ],
-    "total_balance_usd": -3209224.34,
-    "total_modified_duration": 0.36,
-    "note": "This is the bank duration table. Its balances are not the full portfolio allocation or a separate debt total."
-  },
   "coverage": {
-    "physical_pages": 69,
+    "physical_pages": 57,
     "printed_pages": [
-      0,
-      68
+      1,
+      57
     ],
     "transaction_history_included": false,
-    "transaction_history_note": "This replacement statement has no Transactions section or dated transaction ledger. The deposits and withdrawals are performance-summary totals only; detailed transaction counts, counterparties, dates and category totals cannot be reconstructed from this file.",
-    "estimated_interest_printed_pages": [
-      59,
-      63
-    ],
-    "sustainability_note": "Page 64 contains an image-based bank sustainability chart. It is a sustainability measure, not a financial-risk score.",
-    "valuation_basis_note": "The allocation/holding total and performance ending value are separate printed totals. Their difference is retained, not forced to reconcile.",
-    "statement_revision_note": "All figures come from the replacement statement. May and June historical month-end values differ from the prior document; the replacement values take precedence.",
+    "transaction_history_note": "The statement contains no Transactions section or dated transaction ledger. Deposits and withdrawals are performance-summary totals only.",
+    "estimated_interest_printed_pages": [],
+    "estimated_interest_included": false,
+    "sustainability_note": "Pages 53 and 56-57 describe the bank sustainability rating. It is not a financial-risk score.",
+    "valuation_basis_note": "The detailed holdings, accrued interest and performance ending value reconcile to the same net total.",
+    "statement_revision_note": "All LGT figures come from the 7 September 2026 replacement statement.",
     "missing": [
-      "Detailed transaction ledger and individual deposits/withdrawals.",
-      "Live prices or account activity after 23 August 2026.",
-      "Current collateral availability, lender haircut/margin rules, and confirmed later refinancing or assignment outcomes.",
+      "Detailed transaction ledger and individual deposits or withdrawals.",
+      "Estimated future interest-payment schedule.",
+      "Live prices or account activity after 7 September 2026.",
+      "Current collateral availability, lender haircut and margin rules, and confirmed later refinancing or assignment outcomes.",
       "Complete legal term sheets for each structured product or foreign-exchange contract.",
       "Performance attribution by individual transaction or holding."
-    ]
-  },
-  "validation": {
-    "allocation_difference_usd": 0,
-    "currency_difference_usd": 0,
-    "performance_bridge_difference_usd": 0,
-    "component_difference_usd": 0,
-    "monthly_change_difference_usd": 0,
-    "contribution_difference_pp": 0,
-    "performance_minus_allocation_usd": 7711.06,
-    "visually_checked_printed_pages": [
-      3,
-      4,
-      5
     ]
   }
 }
